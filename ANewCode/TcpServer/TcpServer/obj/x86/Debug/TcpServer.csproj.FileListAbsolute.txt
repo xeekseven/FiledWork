@@ -1,0 +1,7 @@
+D:\FiledWork\ANewCode\TcpServer\TcpServer\bin\Debug\TcpServer.exe
+D:\FiledWork\ANewCode\TcpServer\TcpServer\bin\Debug\TcpServer.pdb
+D:\FiledWork\ANewCode\TcpServer\TcpServer\bin\Debug\Huike.Tcp.dll
+D:\FiledWork\ANewCode\TcpServer\TcpServer\bin\Debug\Huike.Tcp.pdb
+D:\FiledWork\ANewCode\TcpServer\TcpServer\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\FiledWork\ANewCode\TcpServer\TcpServer\obj\x86\Debug\TcpServer.exe
+D:\FiledWork\ANewCode\TcpServer\TcpServer\obj\x86\Debug\TcpServer.pdb
