@@ -1,0 +1,7 @@
+D:\FiledWork\ANewCode\ConnectDataBase\ConnectDataBase\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\FiledWork\ANewCode\ConnectDataBase\ConnectDataBase\bin\Debug\ConnectDataBase.exe.config
+D:\FiledWork\ANewCode\ConnectDataBase\ConnectDataBase\bin\Debug\ConnectDataBase.exe
+D:\FiledWork\ANewCode\ConnectDataBase\ConnectDataBase\bin\Debug\ConnectDataBase.pdb
+D:\FiledWork\ANewCode\ConnectDataBase\ConnectDataBase\bin\Debug\Huike.Core.dll
+D:\FiledWork\ANewCode\ConnectDataBase\ConnectDataBase\obj\x86\Debug\ConnectDataBase.exe
+D:\FiledWork\ANewCode\ConnectDataBase\ConnectDataBase\obj\x86\Debug\ConnectDataBase.pdb
