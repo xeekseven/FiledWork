@@ -14,7 +14,8 @@ namespace ConnectDataBase
             DbOprClass db = new DbOprClass();
             if (db != null)
             {
-                Console.WriteLine(db.GetData().Tables[0].Rows[0][0]);
+                //Console.WriteLine(db.GetData().Tables[0].Rows[0][0]);
+                db.DeleteData("121");
             }
             
             Console.ReadKey();

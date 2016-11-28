@@ -19,9 +19,9 @@ namespace ConnectDataBase
             return this.ExecuteQuery(sqlStr);
 
         }
-        public void DeleteData(int id)
+        public void DeleteData(string name)
         {
-            string sqlStr = string.Format("Delete from Boy where Id={0} ", id);
+            string sqlStr = string.Format("Delete from Boy where name={0} ", name);
             this.ExecuteNonQuery(sqlStr);
         }
         public void InsertData(int id,string Name)

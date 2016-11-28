@@ -1,0 +1,5 @@
+D:\FiledWork\ANewCode\AsyncPractice\AsyncPractice\bin\Debug\AsyncPractice.exe
+D:\FiledWork\ANewCode\AsyncPractice\AsyncPractice\bin\Debug\AsyncPractice.pdb
+D:\FiledWork\ANewCode\AsyncPractice\AsyncPractice\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\FiledWork\ANewCode\AsyncPractice\AsyncPractice\obj\x86\Debug\AsyncPractice.exe
+D:\FiledWork\ANewCode\AsyncPractice\AsyncPractice\obj\x86\Debug\AsyncPractice.pdb

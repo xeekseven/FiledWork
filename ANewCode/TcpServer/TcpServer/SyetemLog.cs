@@ -51,6 +51,22 @@ namespace Huike.Log
           
         }
 
+        public void AddLogQueue(string logType, string logInfo)
+        {
+            lock (logQueue)
+            {
+                logQueue.Enqueue(logType + "|" + logInfo);
+            }
+            if (this.logThread == null)
+            {
+
+            }
+            if (logThread.ThreadState == ThreadState.Suspended)
+            {
+                logThread.Resume();
+            }
+        }
+
         private void HandleLogQueueThread()
         {
             while(!quitLogThread)

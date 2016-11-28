@@ -17,12 +17,12 @@ namespace ConnectDataBase
                 return dao.GetData();
             }
         }
-        public bool DeleteData(int id)
+        public bool DeleteData(string name)
         {
-            using (Huike.Core.Dao.PersistentManager pm = new Huike.Core.Dao.PersistentManager("ConnectionStringA"))
+            using (Huike.Core.Dao.PersistentManager pm = new Huike.Core.Dao.PersistentManager("A"))
             {
                 DbDaoClass dao = (DbDaoClass)pm.BuildDao("ConnectDataBase.DbDaoClass");
-                dao.DeleteData(id);
+                dao.DeleteData(name);
                 return pm.Submit();
             }
         }

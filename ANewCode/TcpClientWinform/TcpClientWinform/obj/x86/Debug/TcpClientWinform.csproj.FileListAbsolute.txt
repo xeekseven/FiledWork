@@ -1,0 +1,10 @@
+D:\FiledWork\ANewCode\TcpClientWinform\TcpClientWinform\bin\Debug\TcpClientWinform.exe
+D:\FiledWork\ANewCode\TcpClientWinform\TcpClientWinform\bin\Debug\TcpClientWinform.pdb
+D:\FiledWork\ANewCode\TcpClientWinform\TcpClientWinform\bin\Debug\Huike.Tcp.dll
+D:\FiledWork\ANewCode\TcpClientWinform\TcpClientWinform\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\FiledWork\ANewCode\TcpClientWinform\TcpClientWinform\obj\x86\Debug\TcpClientWinform.Form1.resources
+D:\FiledWork\ANewCode\TcpClientWinform\TcpClientWinform\obj\x86\Debug\TcpClientWinform.Properties.Resources.resources
+D:\FiledWork\ANewCode\TcpClientWinform\TcpClientWinform\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\FiledWork\ANewCode\TcpClientWinform\TcpClientWinform\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\FiledWork\ANewCode\TcpClientWinform\TcpClientWinform\obj\x86\Debug\TcpClientWinform.exe
+D:\FiledWork\ANewCode\TcpClientWinform\TcpClientWinform\obj\x86\Debug\TcpClientWinform.pdb

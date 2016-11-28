@@ -1,0 +1,12 @@
+D:\FiledWork\ANewCode\TcpServerWinform\TcpServerWinform\bin\Debug\TcpServerWinform.exe
+D:\FiledWork\ANewCode\TcpServerWinform\TcpServerWinform\bin\Debug\TcpServerWinform.pdb
+D:\FiledWork\ANewCode\TcpServerWinform\TcpServerWinform\bin\Debug\Huike.Tcp.dll
+D:\FiledWork\ANewCode\TcpServerWinform\TcpServerWinform\bin\Debug\Huike.Tcp.pdb
+D:\FiledWork\ANewCode\TcpServerWinform\TcpServerWinform\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\FiledWork\ANewCode\TcpServerWinform\TcpServerWinform\obj\x86\Debug\TcpServerWinform.Form1.resources
+D:\FiledWork\ANewCode\TcpServerWinform\TcpServerWinform\obj\x86\Debug\TcpServerWinform.Properties.Resources.resources
+D:\FiledWork\ANewCode\TcpServerWinform\TcpServerWinform\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\FiledWork\ANewCode\TcpServerWinform\TcpServerWinform\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\FiledWork\ANewCode\TcpServerWinform\TcpServerWinform\obj\x86\Debug\TcpServerWinform.exe
+D:\FiledWork\ANewCode\TcpServerWinform\TcpServerWinform\obj\x86\Debug\TcpServerWinform.pdb
+D:\FiledWork\ANewCode\TcpServerWinform\TcpServerWinform\bin\Debug\Logger.dll
