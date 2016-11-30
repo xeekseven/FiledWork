@@ -1,0 +1,11 @@
+D:\FiledWork\ANewCode\OPC\OPC\bin\Debug\OPC.exe
+D:\FiledWork\ANewCode\OPC\OPC\bin\Debug\OPC.pdb
+D:\FiledWork\ANewCode\OPC\OPC\bin\Debug\PLCCommunicate.dll
+D:\FiledWork\ANewCode\OPC\OPC\bin\Debug\Interop.OPCCOMC6.dll
+D:\FiledWork\ANewCode\OPC\OPC\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\FiledWork\ANewCode\OPC\OPC\obj\x86\Debug\OPC.Form1.resources
+D:\FiledWork\ANewCode\OPC\OPC\obj\x86\Debug\OPC.Properties.Resources.resources
+D:\FiledWork\ANewCode\OPC\OPC\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\FiledWork\ANewCode\OPC\OPC\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\FiledWork\ANewCode\OPC\OPC\obj\x86\Debug\OPC.exe
+D:\FiledWork\ANewCode\OPC\OPC\obj\x86\Debug\OPC.pdb

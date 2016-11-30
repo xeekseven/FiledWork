@@ -38,6 +38,8 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.OpenBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -99,6 +101,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 21);
             this.textBox2.TabIndex = 6;
+            this.textBox2.Text = "9600,n,8,1";
             // 
             // textBox3
             // 
@@ -106,6 +109,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 21);
             this.textBox3.TabIndex = 7;
+            this.textBox3.Text = "2";
             // 
             // textBox4
             // 
@@ -113,6 +117,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 21);
             this.textBox4.TabIndex = 8;
+            this.textBox4.Text = "3";
             // 
             // textBox5
             // 
@@ -120,12 +125,33 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 21);
             this.textBox5.TabIndex = 9;
+            this.textBox5.Text = "125";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(325, 41);
+            this.textBox6.Multiline = true;
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(349, 290);
+            this.textBox6.TabIndex = 10;
+            // 
+            // OpenBtn
+            // 
+            this.OpenBtn.Location = new System.Drawing.Point(325, 13);
+            this.OpenBtn.Name = "OpenBtn";
+            this.OpenBtn.Size = new System.Drawing.Size(75, 23);
+            this.OpenBtn.TabIndex = 11;
+            this.OpenBtn.Text = "打开串口\r\n";
+            this.OpenBtn.UseVisualStyleBackColor = true;
+            this.OpenBtn.Click += new System.EventHandler(this.OpenBtn_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(735, 343);
+            this.Controls.Add(this.OpenBtn);
+            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
@@ -155,6 +181,8 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Button OpenBtn;
     }
 }
 

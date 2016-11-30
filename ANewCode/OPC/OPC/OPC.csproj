@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{0C67F370-8EBC-4DF4-8C69-788B7373CA03}</ProjectGuid>
+    <ProjectGuid>{F89FE0A8-E0D1-4687-AA89-A31736B65CD9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>扫描器组件</RootNamespace>
-    <AssemblyName>扫描器组件</AssemblyName>
+    <RootNamespace>OPC</RootNamespace>
+    <AssemblyName>OPC</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -34,11 +34,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Logger">
-      <HintPath>..\..\..\..\InHuike\07-常用组件测试范例\07-常用组件测试范例\扫描器组件测试例程\扫描器组件测试例程\扫描器组件测试例程\bin\Debug\Logger.dll</HintPath>
-    </Reference>
-    <Reference Include="ScanSerialPort">
-      <HintPath>..\..\..\..\InHuike\07-常用组件测试范例\07-常用组件测试范例\扫描器组件测试例程\扫描器组件测试例程\扫描器组件测试例程\bin\Debug\ScanSerialPort.dll</HintPath>
+    <Reference Include="PLCCommunicate">
+      <HintPath>..\..\..\..\InHuike\07-常用组件测试范例\07-常用组件测试范例\OPC测试例程\OPC测试例程\dll\PLCCommunicate.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

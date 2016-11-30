@@ -1,0 +1,927 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Logger</name>
+    </assembly>
+    <members>
+        <member name="T:Huike.Util.Logger.UI.DoubleBuffer">
+            <summary>
+            图像缓存类
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.DoubleBuffer.#ctor(System.Windows.Forms.Control)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="parentCtl">父组件</param>
+        </member>
+        <member name="F:Huike.Util.Logger.UI.DoubleBuffer.graphics">
+            <summary>
+            由位图生成的画图对象
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.UI.DoubleBuffer.bitmap">
+            <summary>
+            位图对象
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.UI.DoubleBuffer.parentCtl">
+            <summary>
+            父组件
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.UI.DoubleBuffer.ctlGraphics">
+            <summary>
+            由父组件生成的画图对象
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.DoubleBuffer.CheckIfRefreshBufferRequired">
+            <summary>
+            检查是否需要进行刷新图像缓存
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.DoubleBuffer.RefreshBuffer">
+            <summary>
+            刷新图像缓存
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.DoubleBuffer.Render">
+            <summary>
+            渲染
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.DoubleBuffer.Dispose">
+            <summary>
+            释放资源
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.UI.DoubleBuffer.BuffGraph">
+            <summary>
+            由位图生成的画图对象
+            </summary>
+        </member>
+        <member name="T:Huike.Util.Logger.UI.ListBoard">
+            <summary>
+            列表扩展，继承于ListBox
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.ListBoard.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.ListBoard.SendMessage(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr)">
+            <summary>
+            调用一个窗口的窗口函数，将一条消息发给那个窗口。除非消息处理完毕，否则该函数不会返回。
+            </summary>
+            <param name="hWnd">接收消息的那个窗口的句柄</param>
+            <param name="wMsg">消息的标识符</param>
+            <param name="wParam">具体取决于消息</param>
+            <param name="lParam">具体取决于消息</param>
+            <returns>由具体的消息决定</returns>
+        </member>
+        <member name="F:Huike.Util.Logger.UI.ListBoard.components">
+            <summary>
+            组件容器
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.UI.ListBoard.blockEraseBackGnd">
+            <summary>
+            阻止重刷背景标识
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.ListBoard.GetXY(System.IntPtr,System.Int32@,System.Int32@)">
+            <summary>
+            获取坐标X、Y
+            </summary>
+            <param name="Param">指针</param>
+            <param name="X">坐标X</param>
+            <param name="Y">坐标Y</param>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.ListBoard.WndProc(System.Windows.Forms.Message@)">
+            <summary>
+            处理 Windows 消息
+            </summary>
+            <param name="m">要处理的 Windows 消息</param>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.ListBoard.Dispose(System.Boolean)">
+            <summary> 
+            释放资源
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.ListBoard.InitializeComponent">
+            <summary> 
+            初始化组件
+            </summary>
+        </member>
+        <member name="E:Huike.Util.Logger.UI.ListBoard.UpdateEv">
+            <summary>
+            更新事件
+            </summary>
+        </member>
+        <member name="E:Huike.Util.Logger.UI.ListBoard.RepaintControls">
+            <summary>
+            重画事件
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.UI.ListBoard.BlockEraseBackGnd">
+            <summary>
+            阻止重刷背景标识
+            </summary>
+        </member>
+        <member name="T:Huike.Util.Logger.UI.SelectedIndexDelegate">
+            <summary>
+            选择索引事件委托
+            </summary>
+        </member>
+        <member name="T:Huike.Util.Logger.UI.LogBoard">
+            <summary>
+            日志显示组件。
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.UI.LogBoard.maxStrignLen">
+            <summary>
+            字符最长限制
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.UI.LogBoard.drawingPos">
+            <summary>
+            画图位置
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.UI.LogBoard.XOffset_forIcon">
+            <summary>
+            Icon在X方向上偏移
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.UI.LogBoard.highLightColor">
+            <summary>
+            高亮颜色
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.UI.LogBoard.doubleBufferingEnabled">
+            <summary>
+            图像缓存使能
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.UI.LogBoard.hSBar">
+            <summary>
+            水平滚动条
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.UI.LogBoard.listBox">
+            <summary>
+            列表扩展对象
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.UI.LogBoard.doubleBuff">
+            <summary>
+            图像缓存对象
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.UI.LogBoard.imgList">
+            <summary>
+            图像列表对象
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.UI.LogBoard.components">
+            <summary>
+            组件容器
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.RemoveAt(System.Int32)">
+            <summary>
+            移除项
+            </summary>
+            <param name="Index">项索引</param>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.RefreshBox">
+            <summary>
+            刷新列表
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.InsertItem(System.Int32,System.Object,System.Int32,System.Drawing.Color)">
+            <summary>
+            在某位置之后插入项
+            </summary>
+            <param name="InsertAfter">某位置索引</param>
+            <param name="Item">项</param>
+            <param name="IconIndex">Icon索引</param>
+            <param name="TxtColor">字颜色</param>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.AddItem(System.Object)">
+            <summary>
+            添加项
+            </summary>
+            <param name="Item">项</param>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.AddItem(System.Object,System.Drawing.Color)">
+            <summary>
+            添加项
+            </summary>
+            <param name="Item">项</param>
+            <param name="TxtColor">字颜色</param>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.AddItem(System.Object,System.Int32,System.Drawing.Color)">
+            <summary>
+            添加项
+            </summary>
+            <param name="Item">项</param>
+            <param name="IconIndex">Icon索引</param>
+            <param name="TxtColor">字颜色</param>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.Clear">
+            <summary>
+            清除项
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.EraseMemBackGround">
+            <summary>
+            清除缓存背景
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.DrawListBoxItem(System.Drawing.Graphics,System.Drawing.Rectangle,System.Int32,System.Boolean)">
+            <summary>
+            画列表项
+            </summary>
+            <param name="g">画图对象</param>
+            <param name="bounds">边界</param>
+            <param name="index">索引</param>
+            <param name="selected">是否选择</param>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.GetIconResource(System.String)">
+            <summary>
+            获取图标资源
+            </summary>
+            <param name="name">图标资源名称</param>
+            <returns>图标</returns>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.Dispose(System.Boolean)">
+            <summary>
+            释放资源
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.InitializeComponent">
+            <summary>
+            初始化组件
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.ColorListBox_SizeChanged(System.Object,System.EventArgs)">
+            <summary>
+            组件尺寸变化处理
+            </summary>
+            <param name="sender">引发事件的对象</param>
+            <param name="e">事件参数对象</param>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.ResizeComponets">
+            <summary>
+            使组件尺寸变化
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.ResizeListBoxAndHScrollBar">
+            <summary>
+            使列表扩展、和水平滚动条尺寸变化
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.listBox_DrawItem(System.Object,System.Windows.Forms.DrawItemEventArgs)">
+            <summary>
+            列表扩展画项
+            </summary>
+            <param name="sender">引发事件的对象</param>
+            <param name="e">为 DrawItem 事件提供数据</param>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.GetObjString(System.Int32,System.Int32@,System.Drawing.Color@)">
+            <summary>
+            获取对象文字表示
+            </summary>
+            <param name="Index">索引</param>
+            <param name="IconIndex">Icon索引</param>
+            <param name="clr">颜色</param>
+            <returns>对象文字表示</returns>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.listBox_MeasureItem(System.Object,System.Windows.Forms.MeasureItemEventArgs)">
+            <summary>
+            列表扩展测量项处理
+            </summary>
+            <param name="sender">引发事件的对象</param>
+            <param name="e">为MeasureItem 事件提供数据</param>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.hSBar_ValueChanged(System.Object,System.EventArgs)">
+            <summary>
+            水平滚动条值变化处理
+            </summary>
+            <param name="sender">引发事件的对象</param>
+            <param name="e">事件参数对象</param>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.listBox_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            列表扩展选择索引变化处理
+            </summary>
+            <param name="sender">引发事件的对象</param>
+            <param name="e">事件参数对象</param>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.listBox_RepaintControls(System.Object,System.EventArgs)">
+            <summary>
+            列表扩展重画处理
+            </summary>
+            <param name="sender">引发事件的对象</param>
+            <param name="e">事件参数对象</param>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.ColorListBox_Paint(System.Object,System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            日志组件重画处理
+            </summary>
+            <param name="sender">引发事件的对象</param>
+            <param name="e">为 Paint 事件提供数据</param>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.listBox_UpdateEv(System.Object,System.EventArgs)">
+            <summary>
+            列表扩展更新处理
+            </summary>
+            <param name="sender">引发事件的对象</param>
+            <param name="e">事件参数对象</param>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.listBox_LostFocus(System.Object,System.EventArgs)">
+            <summary>
+            列表扩展失去焦点处理
+            </summary>
+            <param name="sender">引发事件的对象</param>
+            <param name="e">事件参数对象</param>
+        </member>
+        <member name="P:Huike.Util.Logger.UI.LogBoard.DoubleBufferingEnabled">
+            <summary>
+            图像缓存使能
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.UI.LogBoard.InternalListBox">
+            <summary>
+            内部使用的列表扩展对象
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.UI.LogBoard.SelectedIndex">
+            <summary>
+            选择索引
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.UI.LogBoard.UseDoubleBuffering">
+            <summary>
+            使用图像缓存
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.UI.LogBoard.IconImageList">
+            <summary>
+            图像列表对象
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.UI.LogBoard.HighLightColor">
+            <summary>
+            高亮颜色
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.UI.LogBoard.Count">
+            <summary>
+            列表项数目
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.UI.LogBoard.BackColor">
+            <summary>
+            背景色
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.UI.LogBoard.InternalHScrolBar">
+            <summary>
+            内部使用水平滚动条
+            </summary>
+        </member>
+        <member name="E:Huike.Util.Logger.UI.LogBoard.selIndexChanged">
+            <summary>
+            选择索引改变事件
+            </summary>
+        </member>
+        <member name="T:Huike.Util.Logger.UI.LogBoard.ObjectHolder">
+            <summary>
+            对象容器
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.ObjectHolder.#ctor(System.Int32,System.Object,System.Drawing.Color)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="IconIndex">Icon索引</param>
+            <param name="Item">项</param>
+            <param name="TxtColor">字颜色</param>
+        </member>
+        <member name="F:Huike.Util.Logger.UI.LogBoard.ObjectHolder.IconIndex">
+            <summary>
+            Icon索引
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.UI.LogBoard.ObjectHolder.Item">
+            <summary>
+            项
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.UI.LogBoard.ObjectHolder.TxtColor">
+            <summary>
+            字颜色
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.UI.LogBoard.ObjectHolder.ToString">
+            <summary>
+            重写ToString()方法
+            </summary>
+            <returns>字符串</returns>
+        </member>
+        <member name="T:Huike.Util.Logger.CompositeLogger">
+            <summary>
+            组合日志类。
+            </summary>
+        </member>
+        <member name="T:Huike.Util.Logger.ILogger">
+            <summary>
+            日志接口。
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.ILogger.LogMessage(Huike.Util.Logger.LogEventArgs)">
+            <summary>
+            记录日志
+            </summary>
+            <param name="e">日志事件参数类</param>
+        </member>
+        <member name="M:Huike.Util.Logger.CompositeLogger.#ctor(Huike.Util.Logger.ILogger[])">
+            <summary>
+            构造函数
+            </summary>
+            <param name="loggers">日志接口对象集合</param>
+        </member>
+        <member name="F:Huike.Util.Logger.CompositeLogger.loggers">
+            <summary>
+            日志接口对象集合
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.CompositeLogger.thread">
+            <summary>
+            日志线程
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.CompositeLogger.logQueue">
+            <summary>
+            日志队列
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.CompositeLogger.isRun">
+            <summary>
+            日志线程运行标记
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.CompositeLogger.Initialize">
+            <summary>
+            初始化日志线程
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.CompositeLogger.Release">
+            <summary>
+            释放日志线程
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.CompositeLogger.ThreadMethod">
+            <summary>
+            ThreadStart委托处理
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.CompositeLogger.LogMessage(Huike.Util.Logger.LogEventArgs)">
+            <summary>
+            记录日志
+            </summary>
+            <param name="e">日志事件参数对象</param>
+        </member>
+        <member name="T:Huike.Util.Logger.EventLogger">
+            <summary>
+            事件日志类。
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.EventLogger.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.EventLogger.LogMessage(Huike.Util.Logger.LogEventArgs)">
+            <summary>
+            记录日志
+            </summary>
+            <param name="e">日志事件参数对象</param>
+        </member>
+        <member name="T:Huike.Util.Logger.FileLogger">
+            <summary>
+            文件日志类。
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.FileLogger.#ctor(System.String,System.String,System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="filePath">文件路径</param>
+            <param name="fileName">文件名</param>
+            <param name="expandName">文件扩展名</param>
+        </member>
+        <member name="F:Huike.Util.Logger.FileLogger.filePath">
+            <summary>
+            文件路径
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.FileLogger.fileName">
+            <summary>
+            文件名
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.FileLogger.expandName">
+            <summary>
+            文件扩展名
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.FileLogger.intervalMode">
+            <summary>
+            间隔记录模式(每小时生成一个新文件)
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.FileLogger.logDay">
+            <summary>
+            日志保留天数
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.FileLogger.logLevel">
+            <summary>
+            日志记录级别（默认为 Debug）
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.FileLogger.ClearLogFile">
+            <summary>
+            按保存日期清除日志文件
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.FileLogger.LogMessage(Huike.Util.Logger.LogEventArgs)">
+            <summary>
+            记录日志
+            </summary>
+            <param name="e">日志事件参数对象</param>
+        </member>
+        <member name="P:Huike.Util.Logger.FileLogger.IntervalMode">
+            <summary>
+            是否分时保存
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.FileLogger.LogDay">
+            <summary>
+            日志保留天数
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.FileLogger.LogLevel">
+            <summary>
+            日志记录级别（默认为 Debug）
+            </summary>
+        </member>
+        <member name="T:Huike.Util.Logger.ListBoxLogger">
+            <summary>
+            列表框日志类。
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.ListBoxLogger.#ctor(System.Windows.Forms.ListBox)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="listBox">列表框对象</param>
+        </member>
+        <member name="F:Huike.Util.Logger.ListBoxLogger.logEventArgs">
+            <summary>
+            日志事件参数对象
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.ListBoxLogger.listBox">
+            <summary>
+            列表框对象
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.ListBoxLogger.logLevel">
+            <summary>
+            日志记录级别（默认为 Debug）
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.ListBoxLogger.LogMessage(Huike.Util.Logger.LogEventArgs)">
+            <summary>
+            记录日志
+            </summary>
+            <param name="e">日志事件参数对象</param>
+        </member>
+        <member name="M:Huike.Util.Logger.ListBoxLogger.ShowLogMessage">
+            <summary>
+            显示日志
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.ListBoxLogger.LogLevel">
+            <summary>
+            日志记录级别（默认为 Debug）
+            </summary>
+        </member>
+        <member name="T:Huike.Util.Logger.LogBoardLogger">
+            <summary>
+            日志显示组件日志类。
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.LogBoardLogger.#ctor(Huike.Util.Logger.UI.LogBoard)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="logBoard">日志显示组件</param>
+        </member>
+        <member name="F:Huike.Util.Logger.LogBoardLogger.logEventArgs">
+            <summary>
+            日志事件参数对象
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.LogBoardLogger.logBoard">
+            <summary>
+            日志显示组件
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.LogBoardLogger.maxCount">
+            <summary>
+            显示的最大条目数量
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.LogBoardLogger.logLevel">
+            <summary>
+            日志记录级别（默认为 Debug）
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.LogBoardLogger.LogMessage(Huike.Util.Logger.LogEventArgs)">
+            <summary>
+            记录日志
+            </summary>
+            <param name="e">日志事件参数对象</param>
+        </member>
+        <member name="M:Huike.Util.Logger.LogBoardLogger.ShowLogMessage">
+            <summary>
+            显示日志
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.LogBoardLogger.MaxCount">
+            <summary>
+            显示的最大条目数量
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.LogBoardLogger.LogLevel">
+            <summary>
+            日志记录级别（默认为 Debug）
+            </summary>
+        </member>
+        <member name="T:Huike.Util.Logger.LogEventHandler">
+            <summary>
+            日志事件委托
+            </summary>
+        </member>
+        <member name="T:Huike.Util.Logger.LogType">
+            <summary>
+            日志类型枚举
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.LogType.Debug">
+            <summary>
+            测试
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.LogType.Info">
+            <summary>
+            信息
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.LogType.Alert">
+            <summary>
+            报警
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.LogType.Error">
+            <summary>
+            错误
+            </summary>
+        </member>
+        <member name="T:Huike.Util.Logger.LogEventArgs">
+            <summary>
+            日志事件参数类。
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.LogEventArgs.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="logMsg">日志信息</param>
+        </member>
+        <member name="M:Huike.Util.Logger.LogEventArgs.#ctor(Huike.Util.Logger.LogType,System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="logType">日志类型</param>
+            <param name="logMsg">日志信息</param>
+        </member>
+        <member name="M:Huike.Util.Logger.LogEventArgs.#ctor(Huike.Util.Logger.LogType,System.String,System.String,System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="logType">日志类型</param>
+            <param name="logLocation">日志发生地点</param>
+            <param name="logMsg">日志信息</param>
+            <param name="logTip">日志提示</param>
+        </member>
+        <member name="F:Huike.Util.Logger.LogEventArgs.logType">
+            <summary>
+            日志类型
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.LogEventArgs.logLocation">
+            <summary>
+            日志发生地点
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.LogEventArgs.logMsg">
+            <summary>
+            日志信息
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.LogEventArgs.logTip">
+            <summary>
+            日志提示
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.LogEventArgs.LogType">
+            <summary>
+            日志类别
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.LogEventArgs.LogMsg">
+            <summary>
+            日志信息
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.LogEventArgs.LogLocation">
+            <summary>
+            日志发生地点
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.LogEventArgs.LogTip">
+            <summary>
+            日志提示
+            </summary>
+        </member>
+        <member name="T:Huike.Util.Logger.LogNotifier">
+            <summary>
+            日志通知类。
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.LogNotifier.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.LogNotifier.Log(System.String)">
+            <summary>
+            日志通知
+            </summary>
+            <param name="logMsg">日志信息</param>
+        </member>
+        <member name="M:Huike.Util.Logger.LogNotifier.Log(Huike.Util.Logger.LogType,System.String)">
+            <summary>
+            日志通知
+            </summary>
+            <param name="logType">日志类型</param>
+            <param name="logMsg">日志信息</param>
+        </member>
+        <member name="M:Huike.Util.Logger.LogNotifier.Log(Huike.Util.Logger.LogType,System.String,System.String,System.String)">
+            <summary>
+            日志通知
+            </summary>
+            <param name="logType">日志类型</param>
+            <param name="logLocation">日志发生地点</param>
+            <param name="logMsg">日志信息</param>
+            <param name="logTip">日志提示</param>
+        </member>
+        <member name="E:Huike.Util.Logger.LogNotifier.OnLog">
+            <summary>
+            日志通知事件
+            </summary>
+        </member>
+        <member name="T:Huike.Util.Logger.RichTextBoxLogger">
+            <summary>
+            丰富文本框日志类。
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.RichTextBoxLogger.#ctor(System.Windows.Forms.RichTextBox)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="richTextBox">丰富文本框对象s</param>
+        </member>
+        <member name="F:Huike.Util.Logger.RichTextBoxLogger.logEventArgs">
+            <summary>
+            日志事件参数对象
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.RichTextBoxLogger.richTextBox">
+            <summary>
+            丰富文本框对象
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.RichTextBoxLogger.logLevel">
+            <summary>
+            日志记录级别（默认为 Debug）
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.RichTextBoxLogger.LogMessage(Huike.Util.Logger.LogEventArgs)">
+            <summary>
+            记录日志
+            </summary>
+            <param name="e">日志事件参数对象</param>
+        </member>
+        <member name="M:Huike.Util.Logger.RichTextBoxLogger.ShowLogMessage">
+            <summary>
+            显示日志
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.RichTextBoxLogger.LogLevel">
+            <summary>
+            日志记录级别（默认为 Debug）
+            </summary>
+        </member>
+        <member name="T:Huike.Util.Logger.TextBoxLogger">
+            <summary>
+            文本框日志类。
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.TextBoxLogger.#ctor(System.Windows.Forms.TextBox)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="textBox">文本框对象</param>
+        </member>
+        <member name="F:Huike.Util.Logger.TextBoxLogger.logEventArgs">
+            <summary>
+            日志事件参数对象
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.TextBoxLogger.textBox">
+            <summary>
+            文本框对象
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.TextBoxLogger.logLevel">
+            <summary>
+            日志记录级别（默认为 Debug）
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.TextBoxLogger.LogMessage(Huike.Util.Logger.LogEventArgs)">
+            <summary>
+            记录日志
+            </summary>
+            <param name="e">日志事件参数对象</param>
+        </member>
+        <member name="M:Huike.Util.Logger.TextBoxLogger.ShowLogMessage">
+            <summary>
+            显示日志
+            </summary>
+        </member>
+        <member name="P:Huike.Util.Logger.TextBoxLogger.LogLevel">
+            <summary>
+            日志记录级别（默认为 Debug）
+            </summary>
+        </member>
+        <member name="T:Huike.Util.Logger.TraceWindowLogger">
+            <summary>
+            跟踪窗体日志类。
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.TraceWindowLogger.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="F:Huike.Util.Logger.TraceWindowLogger.logLevel">
+            <summary>
+            日志记录级别（默认为 Debug）
+            </summary>
+        </member>
+        <member name="M:Huike.Util.Logger.TraceWindowLogger.LogMessage(Huike.Util.Logger.LogEventArgs)">
+            <summary>
+            记录日志
+            </summary>
+            <param name="e">日志事件参数对象</param>
+        </member>
+        <member name="P:Huike.Util.Logger.TraceWindowLogger.LogLevel">
+            <summary>
+            日志记录级别（默认为 Debug）
+            </summary>
+        </member>
+    </members>
+</doc>

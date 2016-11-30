@@ -1,0 +1,14 @@
+D:\FiledWork\ANewCode\烟分拣系统\烟分拣系统\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\FiledWork\ANewCode\烟分拣系统\烟分拣系统\obj\x86\Debug\烟分拣系统.Form1.resources
+D:\FiledWork\ANewCode\烟分拣系统\烟分拣系统\obj\x86\Debug\烟分拣系统.Properties.Resources.resources
+D:\FiledWork\ANewCode\烟分拣系统\烟分拣系统\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\FiledWork\ANewCode\烟分拣系统\烟分拣系统\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\FiledWork\ANewCode\烟分拣系统\烟分拣系统\bin\Debug\烟分拣系统.exe
+D:\FiledWork\ANewCode\烟分拣系统\烟分拣系统\bin\Debug\烟分拣系统.pdb
+D:\FiledWork\ANewCode\烟分拣系统\烟分拣系统\bin\Debug\Huike.Tag.dll
+D:\FiledWork\ANewCode\烟分拣系统\烟分拣系统\bin\Debug\Logger.dll
+D:\FiledWork\ANewCode\烟分拣系统\烟分拣系统\bin\Debug\Huike.Tag.pdb
+D:\FiledWork\ANewCode\烟分拣系统\烟分拣系统\obj\x86\Debug\烟分拣系统.exe
+D:\FiledWork\ANewCode\烟分拣系统\烟分拣系统\obj\x86\Debug\烟分拣系统.pdb
+D:\FiledWork\ANewCode\烟分拣系统\烟分拣系统\bin\Debug\McsXml.dll
+D:\FiledWork\ANewCode\烟分拣系统\烟分拣系统\bin\Debug\烟分拣系统.exe.config

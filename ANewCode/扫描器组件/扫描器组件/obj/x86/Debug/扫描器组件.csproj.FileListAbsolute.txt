@@ -1,0 +1,13 @@
+D:\FiledWork\ANewCode\扫描器组件\扫描器组件\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\FiledWork\ANewCode\扫描器组件\扫描器组件\obj\x86\Debug\扫描器组件.Form1.resources
+D:\FiledWork\ANewCode\扫描器组件\扫描器组件\obj\x86\Debug\扫描器组件.Properties.Resources.resources
+D:\FiledWork\ANewCode\扫描器组件\扫描器组件\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\FiledWork\ANewCode\扫描器组件\扫描器组件\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\FiledWork\ANewCode\扫描器组件\扫描器组件\bin\Debug\扫描器组件.exe
+D:\FiledWork\ANewCode\扫描器组件\扫描器组件\bin\Debug\扫描器组件.pdb
+D:\FiledWork\ANewCode\扫描器组件\扫描器组件\bin\Debug\Logger.dll
+D:\FiledWork\ANewCode\扫描器组件\扫描器组件\bin\Debug\ScanSerialPort.dll
+D:\FiledWork\ANewCode\扫描器组件\扫描器组件\bin\Debug\Logger.xml
+D:\FiledWork\ANewCode\扫描器组件\扫描器组件\bin\Debug\ScanSerialPort.pdb
+D:\FiledWork\ANewCode\扫描器组件\扫描器组件\obj\x86\Debug\扫描器组件.exe
+D:\FiledWork\ANewCode\扫描器组件\扫描器组件\obj\x86\Debug\扫描器组件.pdb

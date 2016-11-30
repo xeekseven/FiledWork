@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<Config>
+  <UserInfo>
+    <Name>萍乡烟草零烟拣选系统</Name>
+  </UserInfo>
+  <Web>
+    <ServerIP>10.17.152.112</ServerIP>
+  </Web>
+  <Mcs>
+    <ForkLiftNo>2</ForkLiftNo>
+    <LastUser>1001</LastUser>
+  </Mcs>
+  <UI>
+    <FormWidth>1616</FormWidth>
+    <FormHeight>876</FormHeight>
+    <FormLeft>-8</FormLeft>
+    <FormTop>-8</FormTop>
+  </UI>
+</Config>
