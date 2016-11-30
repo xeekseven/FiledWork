@@ -1,0 +1,11 @@
+D:\FiledWork\ANewCode\双洋LED条屏\双洋LED条屏\bin\Debug\双洋LED条屏.exe
+D:\FiledWork\ANewCode\双洋LED条屏\双洋LED条屏\bin\Debug\双洋LED条屏.pdb
+D:\FiledWork\ANewCode\双洋LED条屏\双洋LED条屏\bin\Debug\IOCore.dll
+D:\FiledWork\ANewCode\双洋LED条屏\双洋LED条屏\bin\Debug\IOCore.pdb
+D:\FiledWork\ANewCode\双洋LED条屏\双洋LED条屏\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\FiledWork\ANewCode\双洋LED条屏\双洋LED条屏\obj\x86\Debug\双洋LED条屏.Form1.resources
+D:\FiledWork\ANewCode\双洋LED条屏\双洋LED条屏\obj\x86\Debug\双洋LED条屏.Properties.Resources.resources
+D:\FiledWork\ANewCode\双洋LED条屏\双洋LED条屏\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\FiledWork\ANewCode\双洋LED条屏\双洋LED条屏\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\FiledWork\ANewCode\双洋LED条屏\双洋LED条屏\obj\x86\Debug\双洋LED条屏.exe
+D:\FiledWork\ANewCode\双洋LED条屏\双洋LED条屏\obj\x86\Debug\双洋LED条屏.pdb

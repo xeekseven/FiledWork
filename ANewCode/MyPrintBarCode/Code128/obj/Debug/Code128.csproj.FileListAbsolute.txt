@@ -1,0 +1,5 @@
+D:\FiledWork\ANewCode\MyPrintBarCode\Code128\bin\Debug\Code128.dll
+D:\FiledWork\ANewCode\MyPrintBarCode\Code128\bin\Debug\Code128.pdb
+D:\FiledWork\ANewCode\MyPrintBarCode\Code128\obj\Debug\ResolveAssemblyReference.cache
+D:\FiledWork\ANewCode\MyPrintBarCode\Code128\obj\Debug\Code128.dll
+D:\FiledWork\ANewCode\MyPrintBarCode\Code128\obj\Debug\Code128.pdb

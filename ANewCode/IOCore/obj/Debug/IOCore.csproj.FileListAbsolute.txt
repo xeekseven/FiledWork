@@ -1,0 +1,250 @@
+C:\Users\HKWKY\Desktop\立式LED\LED\IOCore\bin\Debug\IOCore.dll
+C:\Users\HKWKY\Desktop\立式LED\LED\IOCore\bin\Debug\IOCore.pdb
+C:\Users\HKWKY\Desktop\立式LED\LED\IOCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\HKWKY\Desktop\立式LED\LED\IOCore\obj\Debug\IOCore.dll
+C:\Users\HKWKY\Desktop\立式LED\LED\IOCore\obj\Debug\IOCore.pdb
+D:\work\Pc Software\立式LED\LED\IOCore\bin\Debug\IOCore.dll
+D:\work\Pc Software\立式LED\LED\IOCore\bin\Debug\IOCore.pdb
+D:\work\Pc Software\立式LED\LED\IOCore\obj\Debug\ResolveAssemblyReference.cache
+D:\work\Pc Software\立式LED\LED\IOCore\obj\Debug\IOCore.dll
+D:\work\Pc Software\立式LED\LED\IOCore\obj\Debug\IOCore.pdb
+D:\程序\wang\LED2010\IOCore\bin\Debug\IOCore.dll
+D:\程序\wang\LED2010\IOCore\bin\Debug\IOCore.pdb
+D:\程序\wang\LED2010\IOCore\obj\Debug\ResolveAssemblyReference.cache
+D:\程序\wang\LED2010\IOCore\obj\Debug\IOCore.dll
+D:\程序\wang\LED2010\IOCore\obj\Debug\IOCore.pdb
+C:\烟草_武汉\武汉分拣\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+C:\烟草_武汉\武汉分拣\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+C:\烟草_武汉\武汉分拣\Huike.Mcs.Sorter\IOCore\obj\Debug\ResolveAssemblyReference.cache
+C:\烟草_武汉\武汉分拣\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+C:\烟草_武汉\武汉分拣\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+E:\资料文档\工程\武汉烟草\2012-5-19\Huike.Mcs.Sorter\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+E:\资料文档\工程\武汉烟草\2012-5-19\Huike.Mcs.Sorter\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+E:\资料文档\工程\武汉烟草\2012-5-19\Huike.Mcs.Sorter\Huike.Mcs.Sorter\IOCore\obj\Debug\ResolveAssemblyReference.cache
+E:\资料文档\工程\武汉烟草\2012-5-19\Huike.Mcs.Sorter\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+E:\资料文档\工程\武汉烟草\2012-5-19\Huike.Mcs.Sorter\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+F:\工作\烟草_丽水\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+F:\工作\烟草_丽水\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+F:\工作\烟草_丽水\Huike.Mcs.Sorter\IOCore\obj\Debug\ResolveAssemblyReference.cache
+F:\工作\烟草_丽水\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+F:\工作\烟草_丽水\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+D:\程序\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+D:\程序\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+D:\程序\Huike.Mcs.Sorter\IOCore\obj\Debug\ResolveAssemblyReference.cache
+D:\程序\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+D:\程序\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+C:\Users\Liyin\Desktop\Huike.Mcs.Sorter(20121031)\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+C:\Users\Liyin\Desktop\Huike.Mcs.Sorter(20121031)\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+C:\Users\Liyin\Desktop\Huike.Mcs.Sorter(20121031)\Huike.Mcs.Sorter\IOCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Liyin\Desktop\Huike.Mcs.Sorter(20121031)\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+C:\Users\Liyin\Desktop\Huike.Mcs.Sorter(20121031)\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+D:\程序\Huike.Mcs.Sorter(20121106)\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+D:\程序\Huike.Mcs.Sorter(20121106)\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+D:\程序\Huike.Mcs.Sorter(20121106)\Huike.Mcs.Sorter\IOCore\obj\Debug\ResolveAssemblyReference.cache
+D:\程序\Huike.Mcs.Sorter(20121106)\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+D:\程序\Huike.Mcs.Sorter(20121106)\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+C:\Users\Liyin\Desktop\Huike.Mcs.Sorter(20121107)\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+C:\Users\Liyin\Desktop\Huike.Mcs.Sorter(20121107)\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+C:\Users\Liyin\Desktop\Huike.Mcs.Sorter(20121107)\Huike.Mcs.Sorter\IOCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Liyin\Desktop\Huike.Mcs.Sorter(20121107)\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+C:\Users\Liyin\Desktop\Huike.Mcs.Sorter(20121107)\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+D:\程序\Huike.Mcs.Sorter(20121108)\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+D:\程序\Huike.Mcs.Sorter(20121108)\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+D:\程序\Huike.Mcs.Sorter(20121108)\Huike.Mcs.Sorter\IOCore\obj\Debug\ResolveAssemblyReference.cache
+D:\程序\Huike.Mcs.Sorter(20121108)\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+D:\程序\Huike.Mcs.Sorter(20121108)\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+C:\Users\Liyin\Desktop\Huike.Mcs.Sorter\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+C:\Users\Liyin\Desktop\Huike.Mcs.Sorter\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+C:\Users\Liyin\Desktop\Huike.Mcs.Sorter\Huike.Mcs.Sorter\IOCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Liyin\Desktop\Huike.Mcs.Sorter\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+C:\Users\Liyin\Desktop\Huike.Mcs.Sorter\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+F:\工作\烟草_丽水\Huike.Mcs.Sorter(20121112)\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+F:\工作\烟草_丽水\Huike.Mcs.Sorter(20121112)\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+F:\工作\烟草_丽水\Huike.Mcs.Sorter(20121112)\Huike.Mcs.Sorter\IOCore\obj\Debug\ResolveAssemblyReference.cache
+F:\工作\烟草_丽水\Huike.Mcs.Sorter(20121112)\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+F:\工作\烟草_丽水\Huike.Mcs.Sorter(20121112)\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+F:\work\丽水\分拣监控\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+F:\work\丽水\分拣监控\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+F:\work\丽水\分拣监控\Huike.Mcs.Sorter\IOCore\obj\Debug\ResolveAssemblyReference.cache
+F:\work\丽水\分拣监控\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+F:\work\丽水\分拣监控\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+D:\程序\Huike.Mcs.Sorter(20121128)\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+D:\程序\Huike.Mcs.Sorter(20121128)\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+D:\程序\Huike.Mcs.Sorter(20121128)\Huike.Mcs.Sorter\IOCore\obj\Debug\ResolveAssemblyReference.cache
+D:\程序\Huike.Mcs.Sorter(20121128)\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+D:\程序\Huike.Mcs.Sorter(20121128)\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+D:\HUIKE WORK\烟草系统\朔州烟草\分拣监控系统\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+D:\HUIKE WORK\烟草系统\朔州烟草\分拣监控系统\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+D:\HUIKE WORK\烟草系统\朔州烟草\分拣监控系统\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+D:\HUIKE WORK\烟草系统\朔州烟草\分拣监控系统\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+D:\HUIKE WORK\烟草系统\朔州烟草\分拣监控系统\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.csprojResolveAssemblyReference.cache
+D:\朔州烟草\分拣监控系统源代码\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+D:\朔州烟草\分拣监控系统源代码\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+D:\朔州烟草\分拣监控系统源代码\Huike.Mcs.Sorter\IOCore\obj\Debug\ResolveAssemblyReference.cache
+D:\朔州烟草\分拣监控系统源代码\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+D:\朔州烟草\分拣监控系统源代码\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+D:\分拣监控系统\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+D:\分拣监控系统\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+D:\分拣监控系统\Huike.Mcs.Sorter\IOCore\obj\Debug\ResolveAssemblyReference.cache
+D:\分拣监控系统\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+D:\分拣监控系统\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+D:\朔州烟草\分拣监控系统\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+D:\朔州烟草\分拣监控系统\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+D:\朔州烟草\分拣监控系统\Huike.Mcs.Sorter\IOCore\obj\Debug\ResolveAssemblyReference.cache
+D:\朔州烟草\分拣监控系统\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+D:\朔州烟草\分拣监控系统\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+E:\工作\烟草\延边烟草\延边烟草源代码\分拣监控系统\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+E:\工作\烟草\延边烟草\延边烟草源代码\分拣监控系统\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+E:\工作\烟草\延边烟草\延边烟草源代码\分拣监控系统\Huike.Mcs.Sorter\IOCore\obj\Debug\ResolveAssemblyReference.cache
+E:\工作\烟草\延边烟草\延边烟草源代码\分拣监控系统\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+E:\工作\烟草\延边烟草\延边烟草源代码\分拣监控系统\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+D:\延边烟草\分拣监控系统\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+D:\延边烟草\分拣监控系统\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+D:\延边烟草\分拣监控系统\Huike.Mcs.Sorter\IOCore\obj\Debug\ResolveAssemblyReference.cache
+D:\延边烟草\分拣监控系统\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+D:\延边烟草\分拣监控系统\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+F:\项目相关\营口烟草\新建文件夹\分拣监控系统源代码(20130819 林立刚)\分拣监控系统源代码(20130819 林立刚)\Huike.Mcs.Sorter(20130819 林立刚)\IOCore\bin\Debug\IOCore.dll
+F:\项目相关\营口烟草\新建文件夹\分拣监控系统源代码(20130819 林立刚)\分拣监控系统源代码(20130819 林立刚)\Huike.Mcs.Sorter(20130819 林立刚)\IOCore\bin\Debug\IOCore.pdb
+F:\项目相关\营口烟草\新建文件夹\分拣监控系统源代码(20130819 林立刚)\分拣监控系统源代码(20130819 林立刚)\Huike.Mcs.Sorter(20130819 林立刚)\IOCore\obj\Debug\ResolveAssemblyReference.cache
+F:\项目相关\营口烟草\新建文件夹\分拣监控系统源代码(20130819 林立刚)\分拣监控系统源代码(20130819 林立刚)\Huike.Mcs.Sorter(20130819 林立刚)\IOCore\obj\Debug\IOCore.dll
+F:\项目相关\营口烟草\新建文件夹\分拣监控系统源代码(20130819 林立刚)\分拣监控系统源代码(20130819 林立刚)\Huike.Mcs.Sorter(20130819 林立刚)\IOCore\obj\Debug\IOCore.pdb
+F:\项目相关\营口烟草\新建文件夹\分拣监控系统源代码(20130819 林立刚)\分拣监控系统源代码(20130819 林立刚)\mcs\IOCore\bin\Debug\IOCore.dll
+F:\项目相关\营口烟草\新建文件夹\分拣监控系统源代码(20130819 林立刚)\分拣监控系统源代码(20130819 林立刚)\mcs\IOCore\bin\Debug\IOCore.pdb
+F:\项目相关\营口烟草\新建文件夹\分拣监控系统源代码(20130819 林立刚)\分拣监控系统源代码(20130819 林立刚)\mcs\IOCore\obj\Debug\ResolveAssemblyReference.cache
+F:\项目相关\营口烟草\新建文件夹\分拣监控系统源代码(20130819 林立刚)\分拣监控系统源代码(20130819 林立刚)\mcs\IOCore\obj\Debug\IOCore.dll
+F:\项目相关\营口烟草\新建文件夹\分拣监控系统源代码(20130819 林立刚)\分拣监控系统源代码(20130819 林立刚)\mcs\IOCore\obj\Debug\IOCore.pdb
+F:\程序\mcs\mcs\IOCore\bin\Debug\IOCore.dll
+F:\程序\mcs\mcs\IOCore\bin\Debug\IOCore.pdb
+F:\程序\mcs\mcs\IOCore\obj\Debug\ResolveAssemblyReference.cache
+F:\程序\mcs\mcs\IOCore\obj\Debug\IOCore.dll
+F:\程序\mcs\mcs\IOCore\obj\Debug\IOCore.pdb
+C:\Users\Administrator\Desktop\程序\mcs\mcs\IOCore\bin\Debug\IOCore.dll
+C:\Users\Administrator\Desktop\程序\mcs\mcs\IOCore\bin\Debug\IOCore.pdb
+C:\Users\Administrator\Desktop\程序\mcs\mcs\IOCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\程序\mcs\mcs\IOCore\obj\Debug\IOCore.dll
+C:\Users\Administrator\Desktop\程序\mcs\mcs\IOCore\obj\Debug\IOCore.pdb
+F:\程序\程序\mcs\复件 mcs\IOCore\bin\Debug\IOCore.dll
+F:\程序\程序\mcs\复件 mcs\IOCore\bin\Debug\IOCore.pdb
+F:\程序\程序\mcs\复件 mcs\IOCore\obj\Debug\ResolveAssemblyReference.cache
+F:\程序\程序\mcs\复件 mcs\IOCore\obj\Debug\IOCore.dll
+F:\程序\程序\mcs\复件 mcs\IOCore\obj\Debug\IOCore.pdb
+F:\程序\程序\复件 mcs\IOCore\bin\Debug\IOCore.dll
+F:\程序\程序\复件 mcs\IOCore\bin\Debug\IOCore.pdb
+F:\程序\程序\复件 mcs\IOCore\obj\Debug\ResolveAssemblyReference.cache
+F:\程序\程序\复件 mcs\IOCore\obj\Debug\IOCore.dll
+F:\程序\程序\复件 mcs\IOCore\obj\Debug\IOCore.pdb
+F:\程序\程序\复件 mcs1\IOCore\bin\Debug\IOCore.dll
+F:\程序\程序\复件 mcs1\IOCore\bin\Debug\IOCore.pdb
+F:\程序\程序\复件 mcs1\IOCore\obj\Debug\ResolveAssemblyReference.cache
+F:\程序\程序\复件 mcs1\IOCore\obj\Debug\IOCore.dll
+F:\程序\程序\复件 mcs1\IOCore\obj\Debug\IOCore.pdb
+C:\Users\Administrator\Desktop\复件 mcs1\IOCore\bin\Debug\IOCore.dll
+C:\Users\Administrator\Desktop\复件 mcs1\IOCore\bin\Debug\IOCore.pdb
+C:\Users\Administrator\Desktop\复件 mcs1\IOCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\复件 mcs1\IOCore\obj\Debug\IOCore.dll
+C:\Users\Administrator\Desktop\复件 mcs1\IOCore\obj\Debug\IOCore.pdb
+E:\宁波烟草\宁波烟草\mcs\IOCore\bin\Debug\IOCore.dll
+E:\宁波烟草\宁波烟草\mcs\IOCore\bin\Debug\IOCore.pdb
+E:\宁波烟草\宁波烟草\mcs\IOCore\obj\Debug\IOCore.csprojResolveAssemblyReference.cache
+E:\宁波烟草\宁波烟草\mcs\IOCore\obj\Debug\IOCore.dll
+E:\宁波烟草\宁波烟草\mcs\IOCore\obj\Debug\IOCore.pdb
+E:\程序\mcs\IOCore\bin\Debug\IOCore.dll
+E:\程序\mcs\IOCore\bin\Debug\IOCore.pdb
+E:\程序\mcs\IOCore\obj\Debug\ResolveAssemblyReference.cache
+E:\程序\mcs\IOCore\obj\Debug\IOCore.dll
+E:\程序\mcs\IOCore\obj\Debug\IOCore.pdb
+D:\mcs2010320\mcs\IOCore\bin\Debug\IOCore.dll
+D:\mcs2010320\mcs\IOCore\bin\Debug\IOCore.pdb
+D:\mcs2010320\mcs\IOCore\obj\Debug\ResolveAssemblyReference.cache
+D:\mcs2010320\mcs\IOCore\obj\Debug\IOCore.dll
+D:\mcs2010320\mcs\IOCore\obj\Debug\IOCore.pdb
+E:\宁波烟草\宁波烟草\mcs20140418\mcs20140418\mcs\IOCore\bin\Debug\IOCore.dll
+E:\宁波烟草\宁波烟草\mcs20140418\mcs20140418\mcs\IOCore\bin\Debug\IOCore.pdb
+E:\宁波烟草\宁波烟草\mcs20140418\mcs20140418\mcs\IOCore\obj\Debug\IOCore.csprojResolveAssemblyReference.cache
+E:\宁波烟草\宁波烟草\mcs20140418\mcs20140418\mcs\IOCore\obj\Debug\IOCore.dll
+E:\宁波烟草\宁波烟草\mcs20140418\mcs20140418\mcs\IOCore\obj\Debug\IOCore.pdb
+D:\mcs20140426\mcs\IOCore\bin\Debug\IOCore.dll
+D:\mcs20140426\mcs\IOCore\bin\Debug\IOCore.pdb
+D:\mcs20140426\mcs\IOCore\obj\Debug\ResolveAssemblyReference.cache
+D:\mcs20140426\mcs\IOCore\obj\Debug\IOCore.dll
+D:\mcs20140426\mcs\IOCore\obj\Debug\IOCore.pdb
+E:\程序\mcs20140427\mcs\IOCore\bin\Debug\IOCore.dll
+E:\程序\mcs20140427\mcs\IOCore\bin\Debug\IOCore.pdb
+E:\程序\mcs20140427\mcs\IOCore\obj\Debug\ResolveAssemblyReference.cache
+E:\程序\mcs20140427\mcs\IOCore\obj\Debug\IOCore.dll
+E:\程序\mcs20140427\mcs\IOCore\obj\Debug\IOCore.pdb
+E:\程序\mcs20140429\mcs20140429\mcs\IOCore\bin\Debug\IOCore.dll
+E:\程序\mcs20140429\mcs20140429\mcs\IOCore\bin\Debug\IOCore.pdb
+E:\程序\mcs20140429\mcs20140429\mcs\IOCore\obj\Debug\ResolveAssemblyReference.cache
+E:\程序\mcs20140429\mcs20140429\mcs\IOCore\obj\Debug\IOCore.dll
+E:\程序\mcs20140429\mcs20140429\mcs\IOCore\obj\Debug\IOCore.pdb
+E:\宁波烟草\宁波烟草\mcs20140504\mcs20140429\mcs\IOCore\bin\Debug\IOCore.dll
+E:\宁波烟草\宁波烟草\mcs20140504\mcs20140429\mcs\IOCore\bin\Debug\IOCore.pdb
+E:\宁波烟草\宁波烟草\mcs20140504\mcs20140429\mcs\IOCore\obj\Debug\IOCore.csprojResolveAssemblyReference.cache
+E:\宁波烟草\宁波烟草\mcs20140504\mcs20140429\mcs\IOCore\obj\Debug\IOCore.dll
+E:\宁波烟草\宁波烟草\mcs20140504\mcs20140429\mcs\IOCore\obj\Debug\IOCore.pdb
+E:\宁波烟草\宁波烟草\mcs20140504\mcs20140505\mcs\IOCore\bin\Debug\IOCore.dll
+E:\宁波烟草\宁波烟草\mcs20140504\mcs20140505\mcs\IOCore\bin\Debug\IOCore.pdb
+E:\宁波烟草\宁波烟草\mcs20140504\mcs20140505\mcs\IOCore\obj\Debug\IOCore.csprojResolveAssemblyReference.cache
+E:\宁波烟草\宁波烟草\mcs20140504\mcs20140505\mcs\IOCore\obj\Debug\IOCore.dll
+E:\宁波烟草\宁波烟草\mcs20140504\mcs20140505\mcs\IOCore\obj\Debug\IOCore.pdb
+D:\mcs20140505\mcs\IOCore\bin\Debug\IOCore.dll
+D:\mcs20140505\mcs\IOCore\bin\Debug\IOCore.pdb
+D:\mcs20140505\mcs\IOCore\obj\Debug\ResolveAssemblyReference.cache
+D:\mcs20140505\mcs\IOCore\obj\Debug\IOCore.dll
+D:\mcs20140505\mcs\IOCore\obj\Debug\IOCore.pdb
+D:\新建文件夹\mcs20140506\mcs\IOCore\bin\Debug\IOCore.dll
+D:\新建文件夹\mcs20140506\mcs\IOCore\bin\Debug\IOCore.pdb
+D:\新建文件夹\mcs20140506\mcs\IOCore\obj\Debug\ResolveAssemblyReference.cache
+D:\新建文件夹\mcs20140506\mcs\IOCore\obj\Debug\IOCore.dll
+D:\新建文件夹\mcs20140506\mcs\IOCore\obj\Debug\IOCore.pdb
+E:\mcs20140506\mcs\IOCore\bin\Debug\IOCore.dll
+E:\mcs20140506\mcs\IOCore\bin\Debug\IOCore.pdb
+E:\mcs20140506\mcs\IOCore\obj\Debug\ResolveAssemblyReference.cache
+E:\mcs20140506\mcs\IOCore\obj\Debug\IOCore.dll
+E:\mcs20140506\mcs\IOCore\obj\Debug\IOCore.pdb
+E:\mcs20140507---\mcs20140506\mcs\IOCore\bin\Debug\IOCore.dll
+E:\mcs20140507---\mcs20140506\mcs\IOCore\bin\Debug\IOCore.pdb
+E:\mcs20140507---\mcs20140506\mcs\IOCore\obj\Debug\ResolveAssemblyReference.cache
+E:\mcs20140507---\mcs20140506\mcs\IOCore\obj\Debug\IOCore.dll
+E:\mcs20140507---\mcs20140506\mcs\IOCore\obj\Debug\IOCore.pdb
+E:\YangJunfu\2014项目\宁波烟草\程序代码\分拣监控 0509\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+E:\YangJunfu\2014项目\宁波烟草\程序代码\分拣监控 0509\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+E:\YangJunfu\2014项目\宁波烟草\程序代码\分拣监控 0509\Huike.Mcs.Sorter\IOCore\obj\Debug\ResolveAssemblyReference.cache
+E:\YangJunfu\2014项目\宁波烟草\程序代码\分拣监控 0509\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+E:\YangJunfu\2014项目\宁波烟草\程序代码\分拣监控 0509\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+F:\test新方案\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+F:\test新方案\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+F:\test新方案\Huike.Mcs.Sorter\IOCore\obj\Debug\ResolveAssemblyReference.cache
+F:\test新方案\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+F:\test新方案\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+E:\YangJunfu\2014项目\宁波烟草\程序代码\Huike.Mcs.Sorter(20140511)\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.dll
+E:\YangJunfu\2014项目\宁波烟草\程序代码\Huike.Mcs.Sorter(20140511)\Huike.Mcs.Sorter\IOCore\bin\Debug\IOCore.pdb
+E:\YangJunfu\2014项目\宁波烟草\程序代码\Huike.Mcs.Sorter(20140511)\Huike.Mcs.Sorter\IOCore\obj\Debug\ResolveAssemblyReference.cache
+E:\YangJunfu\2014项目\宁波烟草\程序代码\Huike.Mcs.Sorter(20140511)\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.dll
+E:\YangJunfu\2014项目\宁波烟草\程序代码\Huike.Mcs.Sorter(20140511)\Huike.Mcs.Sorter\IOCore\obj\Debug\IOCore.pdb
+F:\asdc\宁波条屏测试\IOCore\bin\Debug\IOCore.dll
+F:\asdc\宁波条屏测试\IOCore\bin\Debug\IOCore.pdb
+F:\asdc\宁波条屏测试\IOCore\obj\Debug\ResolveAssemblyReference.cache
+F:\asdc\宁波条屏测试\IOCore\obj\Debug\IOCore.dll
+F:\asdc\宁波条屏测试\IOCore\obj\Debug\IOCore.pdb
+E:\YangJunfu\工程共享资料\双洋LED\宁波条屏测试\IOCore\obj\Debug\ResolveAssemblyReference.cache
+E:\YangJunfu\工程共享资料\双洋LED\宁波条屏测试\IOCore\obj\Debug\IOCore.dll
+E:\YangJunfu\工程共享资料\双洋LED\宁波条屏测试\IOCore\obj\Debug\IOCore.pdb
+E:\YangJunfu\工程共享资料\双洋LED\宁波条屏测试\IOCore\bin\Debug\IOCore.dll
+E:\YangJunfu\工程共享资料\双洋LED\宁波条屏测试\IOCore\bin\Debug\IOCore.pdb
+\\tsclient\E\YangJunfu\工程共享资料\双洋LED\宁波条屏测试\IOCore\bin\Debug\IOCore.dll
+\\tsclient\E\YangJunfu\工程共享资料\双洋LED\宁波条屏测试\IOCore\bin\Debug\IOCore.pdb
+\\tsclient\E\YangJunfu\工程共享资料\双洋LED\宁波条屏测试\IOCore\obj\Debug\ResolveAssemblyReference.cache
+\\tsclient\E\YangJunfu\工程共享资料\双洋LED\宁波条屏测试\IOCore\obj\Debug\IOCore.dll
+\\tsclient\E\YangJunfu\工程共享资料\双洋LED\宁波条屏测试\IOCore\obj\Debug\IOCore.pdb
+D:\InHuike\07-常用组件测试范例\07-常用组件测试范例\双洋LED条屏测试（20140702）\IOCore\bin\Debug\IOCore.dll
+D:\InHuike\07-常用组件测试范例\07-常用组件测试范例\双洋LED条屏测试（20140702）\IOCore\bin\Debug\IOCore.pdb
+D:\InHuike\07-常用组件测试范例\07-常用组件测试范例\双洋LED条屏测试（20140702）\IOCore\obj\Debug\ResolveAssemblyReference.cache
+D:\InHuike\07-常用组件测试范例\07-常用组件测试范例\双洋LED条屏测试（20140702）\IOCore\obj\Debug\IOCore.dll
+D:\InHuike\07-常用组件测试范例\07-常用组件测试范例\双洋LED条屏测试（20140702）\IOCore\obj\Debug\IOCore.pdb
+D:\FiledWork\ANewCode\IOCore\bin\Debug\IOCore.dll
+D:\FiledWork\ANewCode\IOCore\bin\Debug\IOCore.pdb
+D:\FiledWork\ANewCode\IOCore\obj\Debug\ResolveAssemblyReference.cache
+D:\FiledWork\ANewCode\IOCore\obj\Debug\IOCore.dll
+D:\FiledWork\ANewCode\IOCore\obj\Debug\IOCore.pdb

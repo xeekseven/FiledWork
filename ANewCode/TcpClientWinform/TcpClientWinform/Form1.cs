@@ -49,6 +49,7 @@ namespace TcpClientWinform
         private void client_OnReceive(object sender, Huike.Tcp.ReceiveEventArgs e)
         {
             string msg = e.Read();//接受消息
+            //this.listBox1.Items.Add(msg);
             MessageBox.Show("OnReceive"+msg);
             this.log.AddLogQueue("消息","IP:"+msg+"  消息："+msg);//为出错做写入日志的准备
         }
@@ -75,7 +76,7 @@ namespace TcpClientWinform
                 
                 cReadHandler cRead = new cReadHandler(client.Read);
                 
-                cRead.BeginInvoke(new AsyncCallback(CallBackRead), "AsycState:OK");
+                cRead.BeginInvoke(new AsyncCallback(CallBackRead), "AsyncState:OK");
                
                 //MessageBox.Show(client.Read());//接受的消息（——）
                 //client.Close();//异步未完成前不可关闭

@@ -1,0 +1,35 @@
+D:\work\Pc Software\立式LED\LED\IOCore\bin\Release\IOCore.dll
+D:\work\Pc Software\立式LED\LED\IOCore\bin\Release\IOCore.pdb
+D:\work\Pc Software\立式LED\LED\IOCore\obj\Release\ResolveAssemblyReference.cache
+D:\work\Pc Software\立式LED\LED\IOCore\obj\Release\IOCore.dll
+D:\work\Pc Software\立式LED\LED\IOCore\obj\Release\IOCore.pdb
+D:\work\Pc Software\立式LED\LED2010\IOCore\bin\Release\IOCore.dll
+D:\work\Pc Software\立式LED\LED2010\IOCore\bin\Release\IOCore.pdb
+D:\work\Pc Software\立式LED\LED2010\IOCore\obj\Release\ResolveAssemblyReference.cache
+D:\work\Pc Software\立式LED\LED2010\IOCore\obj\Release\IOCore.dll
+D:\work\Pc Software\立式LED\LED2010\IOCore\obj\Release\IOCore.pdb
+F:\work\丽水\分拣监控\Huike.Mcs.Sorter\IOCore\bin\Release\IOCore.dll
+F:\work\丽水\分拣监控\Huike.Mcs.Sorter\IOCore\bin\Release\IOCore.pdb
+F:\work\丽水\分拣监控\Huike.Mcs.Sorter\IOCore\obj\Release\ResolveAssemblyReference.cache
+F:\work\丽水\分拣监控\Huike.Mcs.Sorter\IOCore\obj\Release\IOCore.dll
+F:\work\丽水\分拣监控\Huike.Mcs.Sorter\IOCore\obj\Release\IOCore.pdb
+D:\程序\Huike.Mcs.Sorter(20121128)\Huike.Mcs.Sorter\IOCore\bin\Release\IOCore.dll
+D:\程序\Huike.Mcs.Sorter(20121128)\Huike.Mcs.Sorter\IOCore\bin\Release\IOCore.pdb
+D:\程序\Huike.Mcs.Sorter(20121128)\Huike.Mcs.Sorter\IOCore\obj\Release\ResolveAssemblyReference.cache
+D:\程序\Huike.Mcs.Sorter(20121128)\Huike.Mcs.Sorter\IOCore\obj\Release\IOCore.dll
+D:\程序\Huike.Mcs.Sorter(20121128)\Huike.Mcs.Sorter\IOCore\obj\Release\IOCore.pdb
+D:\朔州烟草\分拣监控系统\Huike.Mcs.Sorter\IOCore\bin\Release\IOCore.dll
+D:\朔州烟草\分拣监控系统\Huike.Mcs.Sorter\IOCore\bin\Release\IOCore.pdb
+D:\朔州烟草\分拣监控系统\Huike.Mcs.Sorter\IOCore\obj\Release\ResolveAssemblyReference.cache
+D:\朔州烟草\分拣监控系统\Huike.Mcs.Sorter\IOCore\obj\Release\IOCore.dll
+D:\朔州烟草\分拣监控系统\Huike.Mcs.Sorter\IOCore\obj\Release\IOCore.pdb
+C:\Users\Administrator\Desktop\复件 mcs1\IOCore\bin\Release\IOCore.dll
+C:\Users\Administrator\Desktop\复件 mcs1\IOCore\bin\Release\IOCore.pdb
+C:\Users\Administrator\Desktop\复件 mcs1\IOCore\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\复件 mcs1\IOCore\obj\Release\IOCore.dll
+C:\Users\Administrator\Desktop\复件 mcs1\IOCore\obj\Release\IOCore.pdb
+E:\宁波烟草\宁波烟草\mcs\IOCore\bin\Release\IOCore.dll
+E:\宁波烟草\宁波烟草\mcs\IOCore\bin\Release\IOCore.pdb
+E:\宁波烟草\宁波烟草\mcs\IOCore\obj\Release\IOCore.dll
+E:\宁波烟草\宁波烟草\mcs\IOCore\obj\Release\IOCore.pdb
+E:\宁波烟草\宁波烟草\mcs\IOCore\obj\Release\IOCore.csprojResolveAssemblyReference.cache

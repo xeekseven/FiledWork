@@ -34,7 +34,7 @@ namespace TcpServerWinform
                 server.OnReceive += new Huike.Tcp.ReceiveEventHandler(server_OnReceive);
                 server.OnDisconnect += new Huike.Tcp.SocketEventHandler(server_OnDisconnect);
                 server.OnConnect += new Huike.Tcp.SocketEventHandler(server_OnConnect);
-                server.NeedAddStartEnd = false;
+                server.NeedAddStartEnd = true;
                 server.StartListen("127.0.0.1", 8222);
                 log.WriteLog("log", "测试日志写入:开始监听22");
                 //Huike.Util.Logger.LogNotifier.Log(LogType.Info,"写入测试1");
@@ -107,27 +107,21 @@ namespace TcpServerWinform
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             try
             {
-                long tt = System.DateTime.Now.Ticks;
-                if (server.OnlineCount > 0)
+                DateTime tt = System.DateTime.Now;
+                for (int i = 0; i < server.OnlineCount; i++)
                 {
-                    //for (int i = 0; i < 2; i++)
-                    //{
-                    //    for (int j = 0; j < 2; j++)
-                    //    {
-                            ((Huike.Tcp.ClientThread)server.Clients[0]).SendMsg(this.textBox1.Text + "");
-                    //    }
-                    //}
+                    for (int j = 0; j < server.OnlineCount; j++)
+                    {
+                        ((Huike.Tcp.ClientThread)server.Clients[i]).SendMsg(this.textBox1.Text + "   " + j.ToString());
+                    }
                 }
-                tt = System.DateTime.Now.Ticks - tt;
-                tt = tt / 10000;
-                //MessageBox.Show("aa" + tt.ToString());
-
             }
             catch (Exception ex)
             {
-                MessageBox.Show("发送错误",ex.Message);
+                MessageBox.Show(ex.Message);
             }
         }
     }
