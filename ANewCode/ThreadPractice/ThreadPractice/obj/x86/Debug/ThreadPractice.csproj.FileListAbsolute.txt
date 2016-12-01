@@ -1,0 +1,5 @@
+D:\FiledWork\ANewCode\ThreadPractice\ThreadPractice\bin\Debug\ThreadPractice.exe
+D:\FiledWork\ANewCode\ThreadPractice\ThreadPractice\bin\Debug\ThreadPractice.pdb
+D:\FiledWork\ANewCode\ThreadPractice\ThreadPractice\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\FiledWork\ANewCode\ThreadPractice\ThreadPractice\obj\x86\Debug\ThreadPractice.exe
+D:\FiledWork\ANewCode\ThreadPractice\ThreadPractice\obj\x86\Debug\ThreadPractice.pdb

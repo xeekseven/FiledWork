@@ -23,7 +23,7 @@
 				<!--测试项2，2个单元-->
 				<PLCItemName>TestItem2</PLCItemName>
 				<PLCItemIndex>1</PLCItemIndex>
-				<PLCItemString>DB1,INT0,2</PLCItemString>
+				<PLCItemString>DB1,INT2,2</PLCItemString>
 			</PLCItem>
 			<PLCItem>
 				<!--测试项2，4个单元-->

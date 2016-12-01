@@ -1,0 +1,12 @@
+D:\FiledWork\ANewCode\SoftWareS\SoftWareS\bin\Debug\SoftWareS.exe
+D:\FiledWork\ANewCode\SoftWareS\SoftWareS\bin\Debug\SoftWareS.pdb
+D:\FiledWork\ANewCode\SoftWareS\SoftWareS\bin\Debug\Huike.Tcp.dll
+D:\FiledWork\ANewCode\SoftWareS\SoftWareS\bin\Debug\Logger.dll
+D:\FiledWork\ANewCode\SoftWareS\SoftWareS\bin\Debug\Huike.Tcp.pdb
+D:\FiledWork\ANewCode\SoftWareS\SoftWareS\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\FiledWork\ANewCode\SoftWareS\SoftWareS\obj\x86\Debug\SoftWareS.Form1.resources
+D:\FiledWork\ANewCode\SoftWareS\SoftWareS\obj\x86\Debug\SoftWareS.Properties.Resources.resources
+D:\FiledWork\ANewCode\SoftWareS\SoftWareS\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\FiledWork\ANewCode\SoftWareS\SoftWareS\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\FiledWork\ANewCode\SoftWareS\SoftWareS\obj\x86\Debug\SoftWareS.exe
+D:\FiledWork\ANewCode\SoftWareS\SoftWareS\obj\x86\Debug\SoftWareS.pdb

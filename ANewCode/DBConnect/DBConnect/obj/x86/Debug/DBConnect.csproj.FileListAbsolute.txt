@@ -1,0 +1,11 @@
+D:\FiledWork\ANewCode\DBConnect\DBConnect\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\FiledWork\ANewCode\DBConnect\DBConnect\obj\x86\Debug\DBConnect.Form1.resources
+D:\FiledWork\ANewCode\DBConnect\DBConnect\obj\x86\Debug\DBConnect.Properties.Resources.resources
+D:\FiledWork\ANewCode\DBConnect\DBConnect\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\FiledWork\ANewCode\DBConnect\DBConnect\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\FiledWork\ANewCode\DBConnect\DBConnect\bin\Debug\DBConnect.exe.config
+D:\FiledWork\ANewCode\DBConnect\DBConnect\bin\Debug\DBConnect.exe
+D:\FiledWork\ANewCode\DBConnect\DBConnect\bin\Debug\DBConnect.pdb
+D:\FiledWork\ANewCode\DBConnect\DBConnect\bin\Debug\Huike.Core.dll
+D:\FiledWork\ANewCode\DBConnect\DBConnect\obj\x86\Debug\DBConnect.exe
+D:\FiledWork\ANewCode\DBConnect\DBConnect\obj\x86\Debug\DBConnect.pdb
