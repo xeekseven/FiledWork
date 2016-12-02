@@ -64,6 +64,7 @@ namespace ThreadPractice
             }
         }
     }
+
     class Program
     {
         public static void AsyncOne()
@@ -94,22 +95,42 @@ namespace ThreadPractice
         }
         public static void AsyncThree()
         {
-            Console.WriteLine("Main threadId is:"+Thread.CurrentThread.ManagedThreadId);
+            Console.WriteLine("Main threadId is:" + Thread.CurrentThread.ManagedThreadId);
             MessageThree message = new MessageThree();
             Thread thread = new Thread(new ThreadStart(message.ShowMessage));
             thread.IsBackground = true;
             thread.Start();
-            
+
             Console.WriteLine("Do ada");
             thread.Join();
             Thread.Sleep(100);
             Console.ReadKey();
         }
+        public static void AsyncPool()
+        {
+            ThreadPool.SetMaxThreads(1000, 1000);
+            ThreadMessage("start");
+            ThreadPool.QueueUserWorkItem(new WaitCallback(AsyncPoolCallBack));
+            Console.ReadKey();
+        }
+        public static void AsyncPoolCallBack(object state)
+        {
+            Thread.Sleep(200);
+            ThreadMessage("AsyncCallBack");
+            Console.WriteLine("async thread do work");
+        }
+        public static void ThreadMessage(string data)
+        {
+            string message = string.Format("{0}\n  CurrentThreadId is {1}",
+                   data, Thread.CurrentThread.ManagedThreadId);
+            Console.WriteLine(message);
+        }
         static void Main(string[] args)
         {
             //AsyncOne();
             //AsyncTwo();
-            AsyncThree();
+           // AsyncThree();
+            AsyncPool();
         }
     }
 }
