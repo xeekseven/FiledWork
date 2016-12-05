@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- 被2011 rel. 2 (x64) (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<Config>
+	<PLC>
+		<PLCName>西门子</PLCName>
+		<PLCIndex>1</PLCIndex>
+		<PLCType>西门子S7</PLCType>
+		<PLCCommunicateType>OPC</PLCCommunicateType>
+		<plcConnectString>OPC.SimaticNet</plcConnectString>
+		<PLCGroup>
+			<PLCGroupName>MCS</PLCGroupName>
+			<PLCGroupIndex>0</PLCGroupIndex>
+			<PLCGroupServer>None</PLCGroupServer>
+			<PLCGroupString>S7:[@LOCALSERVER]</PLCGroupString>
+			 
+			<PLCItem>
+				<!--测试项1，1个单元-->
+				<PLCItemName>Kaohe1</PLCItemName>
+				<PLCItemIndex>0</PLCItemIndex>
+				<PLCItemString>DB1,INT0,1</PLCItemString>
+			</PLCItem>			 
+			<PLCItem>
+				<!--测试项2，2个单元-->
+				<PLCItemName>TestItem2</PLCItemName>
+				<PLCItemIndex>1</PLCItemIndex>
+				<PLCItemString>DB1,INT2,2</PLCItemString>
+			</PLCItem>
+			<PLCItem>
+				<!--测试项2，4个单元-->
+				<PLCItemName>TestItem3</PLCItemName>
+				<PLCItemIndex>2</PLCItemIndex>
+				<PLCItemString>DB1,INT2,4</PLCItemString>
+			</PLCItem>
+			<PLCItem>
+				<PLCItemName>TestItem4</PLCItemName>
+				<PLCItemIndex>3</PLCItemIndex>
+				<PLCItemString>DB1,INT100,4</PLCItemString>
+			</PLCItem>	
+		</PLCGroup>
+	</PLC>
+</Config>

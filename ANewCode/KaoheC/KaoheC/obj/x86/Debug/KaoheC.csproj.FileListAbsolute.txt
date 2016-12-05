@@ -1,0 +1,12 @@
+D:\FiledWork\ANewCode\KaoheC\KaoheC\bin\Debug\KaoheC.exe
+D:\FiledWork\ANewCode\KaoheC\KaoheC\bin\Debug\KaoheC.pdb
+D:\FiledWork\ANewCode\KaoheC\KaoheC\bin\Debug\Huike.Tcp.dll
+D:\FiledWork\ANewCode\KaoheC\KaoheC\bin\Debug\Huike.Tcp.pdb
+D:\FiledWork\ANewCode\KaoheC\KaoheC\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\FiledWork\ANewCode\KaoheC\KaoheC\obj\x86\Debug\KaoheC.Form1.resources
+D:\FiledWork\ANewCode\KaoheC\KaoheC\obj\x86\Debug\KaoheC.Properties.Resources.resources
+D:\FiledWork\ANewCode\KaoheC\KaoheC\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\FiledWork\ANewCode\KaoheC\KaoheC\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\FiledWork\ANewCode\KaoheC\KaoheC\obj\x86\Debug\KaoheC.exe
+D:\FiledWork\ANewCode\KaoheC\KaoheC\obj\x86\Debug\KaoheC.pdb
+D:\FiledWork\ANewCode\KaoheC\KaoheC\bin\Debug\Logger.dll

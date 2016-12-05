@@ -1,0 +1,15 @@
+D:\FiledWork\ANewCode\KaoheS\KaoheS\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\FiledWork\ANewCode\KaoheS\KaoheS\obj\x86\Debug\KaoheS.Form1.resources
+D:\FiledWork\ANewCode\KaoheS\KaoheS\obj\x86\Debug\KaoheS.Properties.Resources.resources
+D:\FiledWork\ANewCode\KaoheS\KaoheS\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\FiledWork\ANewCode\KaoheS\KaoheS\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\FiledWork\ANewCode\KaoheS\KaoheS\bin\Debug\KaoheS.exe.config
+D:\FiledWork\ANewCode\KaoheS\KaoheS\bin\Debug\KaoheS.exe
+D:\FiledWork\ANewCode\KaoheS\KaoheS\bin\Debug\KaoheS.pdb
+D:\FiledWork\ANewCode\KaoheS\KaoheS\bin\Debug\Huike.Core.dll
+D:\FiledWork\ANewCode\KaoheS\KaoheS\bin\Debug\Huike.Tcp.dll
+D:\FiledWork\ANewCode\KaoheS\KaoheS\bin\Debug\Logger.dll
+D:\FiledWork\ANewCode\KaoheS\KaoheS\bin\Debug\Huike.Tcp.pdb
+D:\FiledWork\ANewCode\KaoheS\KaoheS\obj\x86\Debug\KaoheS.exe
+D:\FiledWork\ANewCode\KaoheS\KaoheS\obj\x86\Debug\KaoheS.pdb
+D:\FiledWork\ANewCode\KaoheS\KaoheS\bin\Debug\Interop.OPCCOMC6.dll
