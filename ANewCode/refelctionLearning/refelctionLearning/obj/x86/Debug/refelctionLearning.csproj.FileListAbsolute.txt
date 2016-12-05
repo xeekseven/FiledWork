@@ -1,0 +1,5 @@
+D:\FiledWork\ANewCode\refelctionLearning\refelctionLearning\bin\Debug\refelctionLearning.exe
+D:\FiledWork\ANewCode\refelctionLearning\refelctionLearning\bin\Debug\refelctionLearning.pdb
+D:\FiledWork\ANewCode\refelctionLearning\refelctionLearning\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\FiledWork\ANewCode\refelctionLearning\refelctionLearning\obj\x86\Debug\refelctionLearning.exe
+D:\FiledWork\ANewCode\refelctionLearning\refelctionLearning\obj\x86\Debug\refelctionLearning.pdb
