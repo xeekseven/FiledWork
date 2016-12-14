@@ -125,12 +125,12 @@ namespace ThreadPractice
                    data, Thread.CurrentThread.ManagedThreadId);
             Console.WriteLine(message);
         }
-        static void Main(string[] args)
-        {
-            //AsyncOne();
-            //AsyncTwo();
-           // AsyncThree();
-            AsyncPool();
-        }
+        //static void Main(string[] args)
+        //{
+        //    //AsyncOne();
+        //    //AsyncTwo();
+        //   // AsyncThree();
+        //    AsyncPool();
+        //}
     }
 }

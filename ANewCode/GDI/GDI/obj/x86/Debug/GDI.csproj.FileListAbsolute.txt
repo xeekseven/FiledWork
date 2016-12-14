@@ -1,0 +1,9 @@
+D:\FiledWork\ANewCode\GDI\GDI\bin\Debug\GDI.exe
+D:\FiledWork\ANewCode\GDI\GDI\bin\Debug\GDI.pdb
+D:\FiledWork\ANewCode\GDI\GDI\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\FiledWork\ANewCode\GDI\GDI\obj\x86\Debug\GDI.Form1.resources
+D:\FiledWork\ANewCode\GDI\GDI\obj\x86\Debug\GDI.Properties.Resources.resources
+D:\FiledWork\ANewCode\GDI\GDI\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\FiledWork\ANewCode\GDI\GDI\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\FiledWork\ANewCode\GDI\GDI\obj\x86\Debug\GDI.exe
+D:\FiledWork\ANewCode\GDI\GDI\obj\x86\Debug\GDI.pdb
