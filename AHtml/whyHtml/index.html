@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>鲸呆了！</title>
+
+	<link rel="shortcut icon"   href="Resouse/image/whale.png">
+
+	<link rel="stylesheet" type="text/css" href="uikit/css/uikit.min.css">
+	<link rel="stylesheet" type="text/css" href="uikit/css/uikit.css">
+	<link rel="stylesheet" type="text/css" href="uikit/css/highlight.css">
+	<link rel="stylesheet" type="text/css" href="uikit/css/components/sticky.css">
+	<link rel="stylesheet" type="text/css" href="uikit/css/components/dotnav.css">
+	<link rel="stylesheet" type="text/css" href="jsOrcss/css/index.css">
+	
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="uikit/docjs/jquery.js"></script>
+	
+
+	<script type="text/javascript" src="uikit/docjs/highlight.js"></script>
+	<script type="text/javascript" src="uikit/js/uikit.min.js"></script>
+	<script type="text/javascript" src="uikit/docjs/docs.js"></script>
+	<script src="uikit/js/components/sticky.js"></script>
+	<script type="text/javascript" src="jsOrcss/js/index.js" ></script>
+
+
+</head>
+<body class="tm-background" style="font-family: 微软雅黑" ">
+	
+	<div class="uk-grid " >
+		<!--左边主要内容-->
+		<div class="uk-width-large-3-10 uk-row-first uk-hidden-small" >
+			<div class="uk-grid" style="margin: 20px 5px 0px 0px" >
+				<div class="uk-width-1-6 uk-row-first" style="padding-left: 0px;background-color: white;" >
+					<ul class="uk-list" style="text-align: center; margin-top: 2%" data-uk-sticky>
+						<li><a href="#"><i class="uk-icon-anchor uk-icon-medium"></i></a></li>
+					</ul>
+					<div class="uk-margin " style="margin: 20px 0px 0px 0px;text-align: center;" data-uk-sticky="{top:50}">
+						<ul class="uk-dotnav uk-flex-column" style="text-align: center;">
+							<li class="uk-active dotnav-li" style="text-align: center;" ><a href="">dada</a></li>
+							<li class="dotnav-li"><a href="" style="background-color: green">...</a></li>
+							<li class="dotnav-li"><a href="" style="background-color: red">...</a></li>
+						</ul>
+
+
+					</div>
+				</div>
+				<div class="uk-width-5-6 uk-row-first " style="padding-left: 0px;height: 100%">
+					<div class="uk-width-large-1-1" data-uk-sticky>
+						<figure class="uk-overlay">
+							<img src="Resouse/image/a.jpg" height="100%" width="auto" alt="">
+							<figcaption class="uk-overlay-panel uk-overlay-background">
+								<h3>今日主题</h3>
+								<p>浑 水 摸 鱼 之<a href="#"> 摸 鱼 大 法 </a> <br>look at me.<i class="uk-icon-share"></i></p>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!--右边主要内容-->
+		<div class="uk-hidden-large uk-width-1-10 uk-text-center-small uk-row-first "  style="padding: 2% 0%">
+			
+		</div>
+		
+		
+		<div class="uk-width-large-7-10   uk-row-first uk-width-9-10" style="padding: 2% 0px">
+			<!-- <div class="uk-sticky-placeholder" style="height: 52px; margin: 0px;" >
+				<div class="uk-panel uk-panel-box" data-uk-sticky="{boundary:'#define-an-offset'}" style="margin: 0px;">附着在顶部
+				</div>
+			</div>
+			<div style="height: 200px;margin: 0px">		
+			</div>
+			<h2 id="define-an-offset" style=""></h2> -->
+			<!--浮动的框-->
+			<div class="uk-margin " data-uk-sticky="{top:0}">
+				<nav class="uk-navbar" style="background-color: #fff;"  >
+
+
+					<a class="uk-navbar-brand" href="#" style="font color: #fff"><i class="uk-icon-rebel"></i></a>
+					<ul class="uk-navbar-nav">
+						<li class="uk-parent " data-uk-dropdown="" aria-haspopup="true" aria-expanded="false">
+							<a href=""><i class="uk-icon-home"></i> xeekseven</a>
+							<!-- <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-top" style="top: -218px; left: 0px;">
+								<ul class="uk-nav uk-nav-navbar">
+									<li><a href="#">Item</a></li>
+									<li><a href="#">Another item</a></li>
+									<li class="uk-nav-header">Header</li>
+									<li><a href="#">Item</a></li>
+									<li><a href="#">Another item</a></li>
+									<li class="uk-nav-divider"></li>
+									<li><a href="#">Separated item</a></li>
+								</ul>
+							</div> -->
+
+						</li>
+						
+
+					</ul>
+
+					<div class="uk-navbar-content">Some <a href="#">link</a>.</div>
+
+					<div class="uk-navbar-content uk-hidden-small ">
+						<form class="uk-form uk-margin-remove uk-display-inline-block">
+							<input type="text" placeholder="Search">
+							<button class="uk-button uk-button-primary">搜索</button>
+						</form>
+					</div>
+					<div class="uk-hidden-large uk-navbar-content uk-navbar-flip ">
+						<a href="#tm-offcanvas" data-uk-offcanvas></a>
+
+						<!-- 这是开关抽屉式边栏的按钮 -->
+						<button class="uk-navbar-toggle uk-button" style="height: 50%;margin-top: 7%" data-uk-offcanvas="{target:'#tm-offcanvas'}"></button>
+
+					</div>
+					<div class="uk-navbar-content uk-navbar-flip  uk-hidden-medium uk-hidden-small">
+						<div class="uk-button-group">
+							<a class="uk-button uk-button-success" href="#">链接</a>
+							<button class="uk-button uk-button-success">没有广告</button>
+						</div>
+					</div>
+					<hr style="margin-top: 40px;border-top: 1px solid #ddd">
+				</nav>
+
+			</div>
+			<!--类别-->	
+			<div class="uk-margin " style="padding: 20px">
+
+				<ul class="uk-dotnav">
+					<li class="uk-active " ><a href="">...</a></li>
+					<li ><a href="" style="background-color: green">...</a></li>
+					<li><a href="" style="background-color: red">...</a></li>
+				</ul>
+
+				
+			</div>
+			<!--具体的内容-->
+			<div class="uk-grid" style="padding: 1% 2%">
+				<div class="uk-width-1-1 uk-margin">
+				</div>
+				<div class="uk-width-1-1 uk-margin">
+					<div class="uk-grid">
+						<div class="uk-width-2-3">
+							<ul class="uk-list">
+								<li class="uk-margin">
+									<span>人名。</span>
+									<span>时间</span>
+								</li>
+								<li class="uk-text-large uk-text-bold uk-margin">
+									标题要长长城长纯纯粹粹纯纯粹粹纯纯粹粹阿斯达
+								</li>
+								<li class="uk-text-muted uk-text-small">
+									<span>阅读 : 8876</span>
+									<span>查看次数</span>
+								</li>
+							</ul>
+						</div>
+						<div class="uk-width-1-3">
+							<ul class="uk-list">
+								<li class="uk-margin">
+									<span>&nbsp;</span>
+									<span>&nbsp;</span>
+								</li>
+								<li class="uk-text-large uk-text-bold uk-margin">
+									<div style="margin-right: 40% " class="uk-hidden-small">
+										<img src="Resouse/image/peitu.jpg" height="50px">
+									</div>
+									<div style="height: 100%;width: auto; " class="uk-hidden-large">
+										<img src="Resouse/image/peitu.jpg" >
+									</div>
+								</li>
+								<li class="uk-text-muted uk-text-small">
+									<span></span>
+									<span></span>
+								</li>
+							</ul>
+							
+						</div>
+					</div>
+					<hr>
+				</div>
+				<div class="uk-width-1-1 uk-margin">
+					<div class="uk-grid">
+						<div class="uk-width-3-4">
+							<ul class="uk-list">
+								<li>人名。</li>
+								<li>内容</li>
+								<li>
+									<span>时间</span>
+									<span>查看次数</span>
+								</li>
+							</ul>
+						</div>
+						<div class="uk-width-1-4">
+							<div>
+								<img src="ad">
+							</div>
+						</div>
+					</div>
+
+
+					<hr>
+				</div>
+				<div class="uk-width-1-1 uk-margin">
+					<div class="uk-grid">
+						<div class="uk-width-3-4">
+							<ul class="uk-list">
+								<li class="uk-margin">
+									<span>人名。</span>
+									<span>时间</span>
+								</li>
+								<li class="uk-text-large uk-text-bold uk-margin">
+									标题要长长城长纯纯粹粹纯纯粹粹纯纯粹粹踩踩踩
+								</li>
+								<li class="uk-text-muted uk-text-small">
+									<span>阅读 : 8876</span>
+									<span>查看次数</span>
+								</li>
+							</ul>
+						</div>
+						<div class="uk-width-1-4">
+							<div height="50px">
+								<img src="ad" height="50px">
+							</div>
+						</div>
+					</div>
+					<hr>
+				</div>
+				<div class="uk-width-1-1 uk-margin">
+					<div class="uk-grid">
+						<div class="uk-width-3-4">
+							<ul class="uk-list">
+								<li class="uk-margin">
+									<span>人名。</span>
+									<span>时间</span>
+								</li>
+								<li class="uk-text-large uk-text-bold uk-margin">
+									标题要长长城长纯纯粹粹纯纯粹粹纯纯粹粹踩踩踩
+								</li>
+								<li class="uk-text-muted uk-text-small">
+									<span>阅读 : 8876</span>
+									<span>查看次数</span>
+								</li>
+							</ul>
+						</div>
+						<div class="uk-width-1-4">
+							<div height="50px">
+								<img src="ad" height="50px">
+							</div>
+						</div>
+					</div>
+					<hr>
+				</div>
+				<div class="uk-width-1-1 uk-margin">
+					<div class="uk-grid">
+						<div class="uk-width-3-4">
+							<ul class="uk-list">
+								<li class="uk-margin">
+									<span>人名。</span>
+									<span>时间</span>
+								</li>
+								<li class="uk-text-large uk-text-bold uk-margin">
+									标题要长长城长纯纯粹粹纯纯粹粹纯纯粹粹踩踩踩
+								</li>
+								<li class="uk-text-muted uk-text-small">
+									<span>阅读 : 8876</span>
+									<span>查看次数</span>
+								</li>
+							</ul>
+						</div>
+						<div class="uk-width-1-4">
+							<div height="50px">
+								<img src="ad" height="50px">
+							</div>
+						</div>
+					</div>
+					<hr>
+				</div>
+				<div class="uk-width-1-1 uk-margin">
+					<div class="uk-grid">
+						<div class="uk-width-3-4">
+							<ul class="uk-list">
+								<li class="uk-margin">
+									<span>人名。</span>
+									<span>时间</span>
+								</li>
+								<li class="uk-text-large uk-text-bold uk-margin">
+									标题要长长城长纯纯粹粹纯纯粹粹纯纯粹粹踩踩踩
+								</li>
+								<li class="uk-text-muted uk-text-small">
+									<span>阅读 : 8876</span>
+									<span>查看次数</span>
+								</li>
+							</ul>
+						</div>
+						<div class="uk-width-1-4">
+							<div height="50px">
+								<img src="ad" height="50px">
+							</div>
+						</div>
+					</div>
+					<hr>
+				</div>
+				<div class="uk-width-1-1 uk-margin">
+					<div class="uk-grid">
+						<div class="uk-width-3-4">
+							<ul class="uk-list">
+								<li class="uk-margin">
+									<span>人名。</span>
+									<span>时间</span>
+								</li>
+								<li class="uk-text-large uk-text-bold uk-margin">
+									标题要长长城长纯纯粹粹纯纯粹粹纯纯粹粹踩踩踩
+								</li>
+								<li class="uk-text-muted uk-text-small">
+									<span>阅读 : 8876</span>
+									<span>查看次数</span>
+								</li>
+							</ul>
+						</div>
+						<div class="uk-width-1-4">
+							<div height="50px">
+								<img src="ad" height="50px">
+							</div>
+						</div>
+					</div>
+					<hr>
+				</div>
+				<div class="uk-width-1-1 uk-margin">
+					<div class="uk-grid">
+						<div class="uk-width-3-4">
+							<ul class="uk-list">
+								<li class="uk-margin">
+									<span>人名。</span>
+									<span>时间</span>
+								</li>
+								<li class="uk-text-large uk-text-bold uk-margin">
+									标题要长长城长纯纯粹粹纯纯粹粹纯纯粹粹踩踩踩
+								</li>
+								<li class="uk-text-muted uk-text-small">
+									<span>阅读 : 8876</span>
+									<span>查看次数</span>
+								</li>
+							</ul>
+						</div>
+						<div class="uk-width-1-4">
+							<div height="50px">
+								<img src="ad" height="50px">
+							</div>
+						</div>
+					</div>
+					<hr>
+				</div>
+				<div class="uk-width-1-1 uk-margin">
+					<div class="uk-grid">
+						<div class="uk-width-3-4">
+							<ul class="uk-list">
+								<li class="uk-margin">
+									<span>人名。</span>
+									<span>时间</span>
+								</li>
+								<li class="uk-text-large uk-text-bold uk-margin">
+									标题要长长城长纯纯粹粹纯纯粹粹纯纯粹粹踩踩踩
+								</li>
+								<li class="uk-text-muted uk-text-small">
+									<span>阅读 : 8876</span>
+									<span>查看次数</span>
+								</li>
+							</ul>
+						</div>
+						<div class="uk-width-1-4">
+							<div height="50px">
+								<img src="ad" height="50px">
+							</div>
+						</div>
+					</div>
+					<hr>
+				</div>
+				<div class="uk-width-1-1 uk-margin">
+					<div class="uk-grid">
+						<div class="uk-width-3-4">
+							<ul class="uk-list">
+								<li class="uk-margin">
+									<span>人名。</span>
+									<span>时间</span>
+								</li>
+								<li class="uk-text-large uk-text-bold uk-margin">
+									标题要长长城长纯纯粹粹纯纯粹粹纯纯粹粹踩踩踩
+								</li>
+								<li class="uk-text-muted uk-text-small">
+									<span>阅读 : 8876</span>
+									<span>查看次数</span>
+								</li>
+							</ul>
+						</div>
+						<div class="uk-width-1-4">
+							<div height="50px">
+								<img src="ad" height="50px">
+							</div>
+						</div>
+					</div>
+					<hr>
+				</div>
+				<div class="uk-width-1-1 uk-margin">
+					<div class="uk-grid">
+						<div class="uk-width-3-4">
+							<ul class="uk-list">
+								<li class="uk-margin">
+									<span>人名。</span>
+									<span>时间</span>
+								</li>
+								<li class="uk-text-large uk-text-bold uk-margin">
+									标题要长长城长纯纯粹粹纯纯粹粹纯纯粹粹踩踩踩
+								</li>
+								<li class="uk-text-muted uk-text-small">
+									<span>阅读 : 8876</span>
+									<span>查看次数</span>
+								</li>
+							</ul>
+						</div>
+						<div class="uk-width-1-4">
+							<div height="50px">
+								<img src="ad" height="50px">
+							</div>
+						</div>
+					</div>
+					<hr>
+				</div>
+				<div class="uk-width-1-1 uk-margin">
+					<div class="uk-grid">
+						<div class="uk-width-3-4">
+							<ul class="uk-list">
+								<li class="uk-margin">
+									<span>人名。</span>
+									<span>时间</span>
+								</li>
+								<li class="uk-text-large uk-text-bold uk-margin">
+									标题要长长城长纯纯粹粹纯纯粹粹纯纯粹粹踩踩踩
+								</li>
+								<li class="uk-text-muted uk-text-small">
+									<span>阅读 : 8876</span>
+									<span>查看次数</span>
+								</li>
+							</ul>
+						</div>
+						<div class="uk-width-1-4">
+							<div height="50px">
+								<img src="ad" height="50px">
+							</div>
+						</div>
+					</div>
+					<hr>
+				</div>
+				<div class="uk-width-1-1 uk-margin">
+					<div class="uk-grid">
+						<div class="uk-width-3-4">
+							<ul class="uk-list">
+								<li class="uk-margin">
+									<span>人名。</span>
+									<span>时间</span>
+								</li>
+								<li class="uk-text-large uk-text-bold uk-margin">
+									标题要长长城长纯纯粹粹纯纯粹粹纯纯粹粹踩踩踩
+								</li>
+								<li class="uk-text-muted uk-text-small">
+									<span>阅读 : 8876</span>
+									<span>查看次数</span>
+								</li>
+							</ul>
+						</div>
+						<div class="uk-width-1-4">
+							<div height="50px">
+								<img src="ad" height="50px">
+							</div>
+						</div>
+					</div>
+					<hr>
+				</div>
+				<div class="uk-width-1-1 uk-margin">
+					<div class="uk-grid">
+						<div class="uk-width-3-4">
+							<ul class="uk-list">
+								<li class="uk-margin">
+									<span>人名。</span>
+									<span>时间</span>
+								</li>
+								<li class="uk-text-large uk-text-bold uk-margin">
+									标题要长长城长纯纯粹粹纯纯粹粹纯纯粹粹踩踩踩
+								</li>
+								<li class="uk-text-muted uk-text-small">
+									<span>阅读 : 8876</span>
+									<span>查看次数</span>
+								</li>
+							</ul>
+						</div>
+						<div class="uk-width-1-4">
+							<div height="50px">
+								<img src="ad" height="50px">
+							</div>
+						</div>
+					</div>
+					<hr>
+				</div>
+				<div class="uk-margin uk-text-center" style="text-align: :center;">
+					
+				</div>
+
+			</div>
+			<ul class="uk-pagination">
+				<li class="uk-disabled"><span><i class="uk-icon-angle-double-left"></i></span></li>
+				<li class="uk-active"><span>1</span></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><span>...</span></li>
+				<li><a href="#">20</a></li>
+				<li><a href="#"><i class="uk-icon-angle-double-right"></i></a></li>
+			</ul>
+			<div class="uk-grid">
+				<div class="uk-width-1-1">
+					<hr style="border-top: 1px solid #dddddd">
+					<ul class="uk-list uk-text-small uk-text-center" style=" margin-left: 10px">
+						<li >
+							<span>关于迟鲸 | 联系我们 | 我们不在</span>
+							
+						</li>
+						<li>
+							<hr style="border-top: 1px solid #fff">
+						</li>
+						<li>
+							<span><a href="https://github.com/xeekseven" target="_blank"><i class="uk-icon-github uk-icon-medium"></i></a>&nbsp;&nbsp;</span>
+							<span><a href="#"><i class="uk-icon-weibo uk-icon-medium"></i></a>&nbsp;&nbsp;</span>
+							<span><a href="#"><i class="uk-icon-facebook uk-icon-medium"></i></a>&nbsp;&nbsp;</span>
+							<span><a href="#"><i class="uk-icon-twitter uk-icon-medium"></i></a>&nbsp;&nbsp;</span>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div id="tm-offcanvas" class="uk-offcanvas">
+		<div class="uk-offcanvas-bar">
+			<ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav="{multiple:true}">
+				<li id="li1" class="uk-parent " aria-expanded="false"><a href="#">xeekseven</a>
+					<div  style=" position: relative; height: 0px;" class="uk-hidden">
+						<ul class="uk-nav-sub">
+							<li><a href="documentation_get-started.html">开始使用</a></li>
+
+						</ul>
+					</div>
+					</li>
+					<li class="uk-nav-header">Core</li>
+					<li class="uk-parent uk-open" aria-expanded="true"><a href="#"><i class="uk-icon-wrench"></i> 默认</a>
+						<div style="overflow: hidden; position: relative;" class=""><ul class="uk-nav-sub">
+							<li><a href="base.html">基础</a></li>
+							<li><a href="print.html">打印</a></li>
+						</ul></div>
+					</li>
+					<li class="uk-parent uk-open" aria-expanded="true"><a href="#"><i class="uk-icon-th-large"></i> 布局类组件</a>
+						<div style="overflow: hidden; position: relative;" class=""><ul class="uk-nav-sub">
+							<li><a href="grid.html">网格</a></li>
+							<li><a href="panel.html">面板</a></li>
+							<li><a href="block.html">块</a></li>
+							<li><a href="article.html">文章</a></li>
+							<li><a href="comment.html">评论</a></li>
+							<li><a href="utility.html">效果</a></li>
+							<li><a href="flex.html">Flex</a></li>
+							<li><a href="cover.html">覆盖</a></li>
+						</ul></div>
+					</li>
+					<li class="uk-parent" aria-expanded="false"><a href="#"><i class="uk-icon-bars"></i> 导航类组件</a>
+						<div style="overflow:hidden;height:0;position:relative;" class="uk-hidden"><ul class="uk-nav-sub">
+							<li><a href="nav.html">导航菜单</a></li>
+							<li><a href="navbar.html">导航栏</a></li>
+							<li><a href="subnav.html">二级导航</a></li>
+							<li><a href="breadcrumb.html">面包屑</a></li>
+							<li><a href="pagination.html">分页</a></li>
+							<li><a href="tab.html">选项卡</a></li>
+							<li><a href="thumbnav.html">缩略图导航</a></li>
+						</ul></div>
+					</li>
+					<li class="uk-parent" aria-expanded="false"><a href="#"><i class="uk-icon-check"></i> 页面元素</a>
+						<div style="overflow:hidden;height:0;position:relative;" class="uk-hidden"><ul class="uk-nav-sub">
+							<li><a href="list.html">列表</a></li>
+							<li><a href="description-list.html">描述列表</a></li>
+							<li><a href="table.html">表格</a></li>
+							<li><a href="form.html">表单</a></li>
+						</ul></div>
+					</li>
+					<li class="uk-parent" aria-expanded="false"><a href="#"><i class="uk-icon-folder-open"></i> 常用组件</a>
+						<div style="overflow:hidden;height:0;position:relative;" class="uk-hidden"><ul class="uk-nav-sub">
+							<li><a href="button.html">按钮</a></li>
+							<li><a href="icon.html">图标</a></li>
+							<li><a href="close.html">关闭</a></li>
+							<li><a href="badge.html">徽章</a></li>
+							<li><a href="alert.html">提示框</a></li>
+							<li><a href="thumbnail.html">缩略图</a></li>
+							<li><a href="overlay.html">遮罩</a></li>
+							<li><a href="text.html">文本</a></li>
+							<li><a href="column.html">列</a></li>
+							<li><a href="animation.html">动画</a></li>
+							<li><a href="contrast.html">对比度</a></li>
+						</ul></div>
+					</li>
+					<li class="uk-parent" aria-expanded="false"><a href="#"><i class="uk-icon-magic"></i> JavaScript组件</a>
+						<div style="overflow:hidden;height:0;position:relative;" class="uk-hidden"><ul class="uk-nav-sub">
+							<li><a href="dropdown.html">下拉菜单</a></li>
+							<li><a href="modal.html">模态对话框</a></li>
+							<li><a href="offcanvas.html">抽屉</a></li>
+							<li><a href="switcher.html">切换器</a></li>
+							<li><a href="toggle.html">拨动</a></li>
+							<li><a href="scrollspy.html">滚动监听</a></li>
+							<li><a href="smooth-scroll.html">平滑滚动</a></li>
+						</ul></div>
+					</li>
+					<li class="uk-nav-header">附加组件</li>
+					<li class="uk-parent" aria-expanded="false"><a href="#"><i class="uk-icon-th-large"></i> 布局类组件</a>
+						<div style="overflow:hidden;height:0;position:relative;" class="uk-hidden"><ul class="uk-nav-sub">
+							<li><a href="grid-js.html">动态网格</a></li>
+							<li><a href="grid-parallax.html">视差网格</a></li>
+						</ul></div>
+					</li>
+					<li class="uk-parent" aria-expanded="false"><a href="#"><i class="uk-icon-bars"></i> 导航类组件</a>
+						<div style="overflow:hidden;height:0;position:relative;" class="uk-hidden"><ul class="uk-nav-sub">
+							<li><a href="dotnav.html">圆点导航</a></li>
+							<li><a href="slidenav.html">滑动导航</a></li>
+							<li><a href="pagination-js.html">动态分页</a></li>
+						</ul></div>
+					</li>
+					<li class="uk-parent" aria-expanded="false"><a href="#"><i class="uk-icon-folder-open"></i> 常用组件</a>
+						<div style="overflow:hidden;height:0;position:relative;" class="uk-hidden"><ul class="uk-nav-sub">
+							<li><a href="form-advanced.html">高级表单</a></li>
+							<li><a href="form-file.html">文件表单</a></li>
+							<li><a href="form-password.html">密码表单</a></li>
+							<li><a href="form-select.html">选择表单</a></li>
+							<li><a href="placeholder.html">占位符</a></li>
+							<li><a href="progress.html">进度条</a></li>
+						</ul></div>
+					</li>
+					<li class="uk-parent" aria-expanded="false"><a href="#"><i class="uk-icon-magic"></i> JavaScript组件</a>
+						<div style="overflow:hidden;height:0;position:relative;" class="uk-hidden"><ul class="uk-nav-sub">
+							<li><a href="lightbox.html">灯箱</a></li>
+							<li><a href="autocomplete.html">自动完成</a></li>
+							<li><a href="datepicker.html">日期选择器</a></li>
+							<li><a href="htmleditor.html">HTML 编辑器</a></li>
+							<li><a href="slider.html">滚动条</a></li>
+							<li><a href="slideset.html">滑块集</a></li>
+							<li><a href="slideshow.html">幻灯片</a></li>
+							<li><a href="parallax.html">视差</a></li>
+							<li><a href="accordion.html">手风琴</a></li>
+							<li><a href="notify.html">通知</a></li>
+							<li><a href="search.html">搜索</a></li>
+							<li><a href="nestable.html">可嵌套</a></li>
+							<li><a href="sortable.html">可排序</a></li>
+							<li><a href="sticky.html">附着</a></li>
+							<li><a href="timepicker.html">时间选择器</a></li>
+							<li><a href="tooltip.html">工具提示</a></li>
+							<li><a href="upload.html">上传</a></li>
+						</ul></div>
+					</li>
+					<li class="uk-nav-divider"></li>
+					<li><a href="../showcase/index.html">案例展示</a></li>
+					<li><a href="tutorials.html">视频教程</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+	</html>
