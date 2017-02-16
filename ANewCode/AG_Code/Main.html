@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>RouteRegistry</title>
+    <script type="text/javascript" src="lib/system@0.16.11.js"></script>
+    <script type="text/javascript" src="lib/angular2.dev.js"></script>
+    <!--引入Angular2路由模块库-->
+    <script type="text/javascript" src="lib/router.dev.js"></script>
+    <script type="text/javascript" src="lib/system.config.js"></script>
+</head>
+<body>
+	<ez-app></ez-app>
+    <script type="module">
+    	import {Inject,Component,View,bootstrap,NgFor} from "angular2/angular2";
+        import {LocationStrategy,RouteRegistry,RouteConfig,RouterOutlet,RouterLink,Router,routerInjectables} from "angular2/router";
+        
+        //EzApp组件
+        @Component({selector:"ez-app"})
+        @View({
+        	directives:[RouterOutlet,RouterLink,NgFor],
+        	template : `
+            	<nav>
+	            	<!--声明路由入口-->
+                	<b router-link="video">video</b> | 
+                	<b router-link="music">music</b> |
+                	<b (click)="go('/test')">test</b>
+                </nav>
+                <main>
+                	<!--声明路由出口-->
+                	<router-outlet></router-outlet>
+                </main>
+                <footer>
+                	<h3>matchers</h3>
+                	<pre *ng-for="#matcher of dump('matchers')">{{matcher}}</pre>
+                	<h3>redirects</h3>
+                	<pre *ng-for="#redirect of dump('redirects')">{{redirect}}</pre>
+                	<h3>names</h3>
+                	<pre *ng-for="#name of dump('names')">{{name}}</pre>
+                </footer>
+            `
+        })
+        @RouteConfig([
+        	{path:"/video", component:EzVideo,as:"video"},
+        	{path:"/music", component:EzMusic,as:"music"},
+        	{path:"/test" , redirectTo:"/video"},
+        ])
+        class EzApp{
+        	//注入路由注册表对象:RouteRegistry//
+        	constructor(@Inject(RouteRegistry) rr,@Inject(Router) rt,@Inject(LocationStrategy) ls){
+                ls.pushState = function(){};
+                this.rr = rr;
+                this.router=rt;//注入路由器对象
+                
+            }
+            go(path)
+             {
+                	this.router.navigate(path);
+             }
+            //显示路由注册表内容
+            dump(type){
+                var routeRecognizer = this.rr._rules.get(EzApp);
+                if(type === "names"){
+                    var names = [];
+                    routeRecognizer.names.forEach((v,k)=>{
+                        names.push(k+"=>"+JSON.stringify(v))
+                    });
+                    return names;
+                }else if(type === "matchers"){
+                    var matchers = [];
+                    routeRecognizer.matchers.forEach((v,k)=>{
+                        matchers.push(k+"=>"+JSON.stringify(v))
+                    })
+                    return matchers;
+                }else if(type === "redirects"){
+                    var redirects = [];
+                    routeRecognizer.redirects.forEach((v,k)=>{
+                        redirects.push(k+"=>"+JSON.stringify(v))
+                    })
+                    return redirects;
+                }
+                
+                return [];
+            }
+        }
+        
+        //EzVideo组件
+        @Component({selector:"ez-video"})
+		@View({template : `<h1>VIDEO</h1>`})
+        class EzVideo{}
+        
+        //EzMusic组件
+        @Component({selector:"ez-music"})
+        @View({template : `<h1>MUSIC</h1>`})
+        class EzMusic{}
+                
+        bootstrap(EzApp,[routerInjectables]);
+    </script>
+</body>
+</html>

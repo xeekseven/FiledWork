@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>canvas</title>
+
+	<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		// $(document).ready(function(){
+		// 	var ch=$("#in1").val();
+		// 	alert(ch);
+		// });
+		var draw=function (){
+			
+			var canvas=document.getElementById("c1");
+			if (canvas.getContext) 
+			{
+				//alert("draw start");
+				var ctx=canvas.getContext('2d');
+				alert(ctx);
+				ctx.fillStyle="red";
+				ctx.fillRect(0,0,canvas.width,canvas.height);
+				ctx.beginPath();
+				ctx.clearRect(20,20,80,50);
+				var grd = ctx.createRadialGradient(100,100,10,120,170,200);  //定义放射状渐变对象，设定起始圆和结束圆中点重叠，且起始圆半径为0
+				grd.addColorStop(0,"yellow");   //定义渐变线起点颜色
+				grd.addColorStop(0.5,"blue");   //定义渐变线中间点的颜色
+				grd.addColorStop(1,"rgba(255,0,0,0)");  //定义渐变线结束点的颜色，其中颜色透明度为0
+				ctx.fillStyle = grd;   //将放射状渐变对象赋值给fillStyle
+				ctx.fillRect(0,0,500,500); 
+				ctx.clearRect(0,0,canvas.width,canvas.height);
+				ctx.arc(50,50,42,0.12,1.23);
+				ctx.moveTo(20,20);
+				ctx.arcTo(60,20,60,60,40);
+				ctx.stroke();
+				var gradient=ctx.createLinearGradient(0,0,canvas.width,canvas.height);
+				gradient.addColorStop("0","green");
+				gradient.addColorStop("1","rgba(200,255,10,10.5)");
+				ctx.fillStyle=gradient;
+				ctx.strokeStyle="red";
+				ctx.font="italic 30px Arial bold";
+				ctx.fillText("fillText",50,10);
+				ctx.strokeText("strokeText",50,70);
+				ctx.arc(80,80,40,0,2*Math.PI);
+				ctx.fillStyle="#4DA6EF";
+				ctx.fill();
+				ctx.fillStyle="#FF7373";
+				ctx.globalCompositeOperation="xor";
+				ctx.fillRect(95,50,100,90);
+				// canvas.width=canvas.width;
+				// canvas.height=canvas.height;
+				// var pic=document.createElement('img');
+				// pic.src="http://img.mp.itc.cn/upload/20160805/96fbc3b7aa0941f4a70b93709ae52622_th.jpg";
+
+				// pic.onload=patternFill;
+
+				// ctx.beginPath();
+				// ctx.lineCap="square";
+				// ctx.moveTo(10,30);
+				// ctx.lineTo(200,80);
+				// ctx.strokeStyle="green";
+
+				// ctx.beginPath();
+				// ctx.lineJoin="round";
+				// ctx.moveTo(20,60);
+				// ctx.lineTo(100,90);
+				// ctx.lineTo(20,150);
+				// ctx.strokeStyle="yellow";
+				// ctx.stroke();
+				// // var grd=ctx.createLinearGradient(0,0,170,0);
+				// // grd.addColorStop(0.2,"black");
+				// // grd.addColorStop(1,"yellow");
+				// // ctx.strokeStyle=grd;
+				// // ctx.stroke();
+
+				// // ctx.beginPath();
+				// // ctx.moveTo(100,100);
+				// // ctx.lineTo(12,123);
+				// // ctx.strokeStyle="red";
+				// // ctx.stroke();
+				// // ctx.fillStyle="rgb(200,0,0)";
+				// // ctx.fillRect(10,10,55,50);
+				// // ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
+				// // ctx.fillRect (30, 30, 55, 50);
+				// function patternFill()
+				// {
+				// 	var redTexture=ctx.createPattern(pic,"repeat");
+				// 	ctx.strokeStyle=redTexture;
+				// 	ctx.moveTo(80,10);
+				// 	ctx.lineTo(10,90);
+				// 	ctx.lineWidth = 20; 
+				// 	ctx.stroke();
+				// }
+			}
+			
+		}
+	</script>
+	<style type="text/css">
+		canvas{ border:1px solid black; }
+	</style>
+</head>
+<body onload="draw();">
+	<table >
+		<tr>
+			<td><input type="hidden" name="ch1" id="in1" value="212"/></td>
+		</tr>
+	</table>
+	
+	<canvas id="c1" width="1000" height="1000" >
+		current stock price: $3.15 +0.15
+	</canvas>
+</body>
+</html>
