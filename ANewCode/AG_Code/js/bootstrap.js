@@ -1,4 +1,8 @@
 $(document).ready(function(){
+	$("ul#ul_suofang").click(function(){
+		$("div#div_op_left").css("width","80px");
+
+	});
 	$("ul#zs_ul_1").click(function(){
 		$("ul#ul_plc_op").is(":hidden")
 		? ($("ul#ul_plc_op").show(),$("span#sp_fenj").toggleClass("glyphicon glyphicon-chevron-right"),$("span#sp_fenj").toggleClass("glyphicon glyphicon-chevron-down"))

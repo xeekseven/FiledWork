@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>echarts</title>
+	<script type="text/javascript" src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/echarts.js"></script>
+
+</head>
+<body>
+
+<div id="div_data" style="height: 600px;width: 800px;">
+	
+</div>
+<script type="text/javascript">
+	var myChart=echarts.init(document.getElementById('div_data'));
+	myChart.setOption({
+		series:[{
+			name:'访问来源',
+			type:'pie',
+			radius:[20,'50%'],
+			center:['25%','50%'],
+			data:[
+				{value:400,name:'搜索'},
+				{value:310, name:'邮件营销'},
+                {value:274, name:'联盟广告'},
+                {value:235, name:'视频广告'},
+                {value:300,name:'爬虫'},
+				{value:335, name:'直接访问'},
+                {value:310, name:'邮件营销'},
+                {value:274, name:'联盟广告'},
+                {value:235, name:'视频广告'}
+				
+			],
+			roseType:'area',
+			itemStyle: {
+			    emphasis: {
+			        shadowBlur: 200,
+			        shadowColor: 'rgba(0, 0, 0, 0.5)'
+			    }
+			}
+		}]
+	});
+	$.get('data.json').done(function(data){
+		myChart.setOption({
+			data:[
+				{value:300,name:'爬虫'},
+				{value:335, name:'直接访问'},
+                {value:310, name:'邮件营销'},
+                {value:274, name:'联盟广告'},
+                {value:235, name:'视频广告'}
+			]
+
+		})
+	});
+	
+</script>
+</body>
+</html>
