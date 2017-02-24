@@ -29,6 +29,7 @@
   <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 
   <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/query.js"></script>
 
 
 
@@ -169,221 +170,201 @@
                 <div class="col-md-1">
                   <h2 class="page-header">&nbsp;</h2>
                 </div>
-                
-                
               </div>             
               <div class="row placeholders" style="background-color: #F2F2F2;height: 40px;text-align: center;">
 
               </div>
               <div>
                 <div class="table-responsive">
-                  <div>
-                    <h3 style="float: left;" class="sub-header">烟仓查询表</h3>
-                    
-
-                    <div class="input-group">
-
-                    <input style="float: left;" type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-
-                      <div class="btn-group" style="float: left;">
-                        <button type="button" class="btn btn-danger">Action</button>
-                        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          <span class="caret"></span>
-                          <span class="sr-only">Toggle Dropdown</span>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Another action</a></li>
-                          <li><a href="#">Something else here</a></li>
-                          <li role="separator" class="divider"></li>
-                          <li><a href="#">Separated link</a></li>
-                        </ul>
+                  <h3 style="float: left;" class="sub-header">烟仓查询表
+                  <div class="input-group" style="float: right; margin-left: 400px;">
+                      <div class="input-group" style="float: left;width: 70%;">
+                        <span class="input-group-addon" style="cursor:pointer;" id="basic-addon1" >子线</span>
+                        <input type="text" class="form-control" placeholder="子线号" aria-describedby="basic-addon1">
                       </div>
-                    </div>
-                    
+                      <div  style="float: left;">
+                        <button type="button" class="btn btn-danger">搜索</button>
+                      </div>
                   </div>
-                  
-                  
-                  <table class="table table-striped">
-                    <thead>
-                      <tr>
-                        <th>生产线</th>
-                        <th>子线</th>
-                        <th>烟仓代码</th>
-                        <th>卷烟条目</th>
-                        <th>库存量</th>
-                        <th>入库量</th>
-                        <th>分拣总量</th>
-                        <th>已分拣量</th>
-                        <th>理论余量</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>1</td>
-                        <td>101</td>
-                        <td>AE2014142131</td>
-                        <td>正常仓</td>
-                        <td>2122</td>
-                        <td>30000</td>
-                        <td>12312</td>
-                        <td>12311</td>
-                        <td>17688</td>
-                      </tr>
-                      <tr>
-                        <td>1</td>
-                        <td>101</td>
-                        <td>AE2014142131</td>
-                        <td>正常仓</td>
-                        <td>2122</td>
-                        <td>30000</td>
-                        <td>12312</td>
-                        <td>12311</td>
-                        <td>17688</td>
-                      </tr>
-                      <tr>
-                        <td>1</td>
-                        <td>101</td>
-                        <td>AE2014142131</td>
-                        <td>正常仓</td>
-                        <td>2122</td>
-                        <td>30000</td>
-                        <td>12312</td>
-                        <td>12311</td>
-                        <td>17688</td>
-                      </tr>
-                      <tr>
-                        <td>1</td>
-                        <td>101</td>
-                        <td>AE2014142131</td>
-                        <td>正常仓</td>
-                        <td>2122</td>
-                        <td>30000</td>
-                        <td>12312</td>
-                        <td>12311</td>
-                        <td>17688</td>
-                      </tr>
-                      <tr>
-                        <td>1</td>
-                        <td>101</td>
-                        <td>AE2014142131</td>
-                        <td>正常仓</td>
-                        <td>2122</td>
-                        <td>30000</td>
-                        <td>12312</td>
-                        <td>12311</td>
-                        <td>17688</td>
-                      </tr>
-                      <tr>
-                        <td>1</td>
-                        <td>101</td>
-                        <td>AE2014142131</td>
-                        <td>正常仓</td>
-                        <td>2122</td>
-                        <td>30000</td>
-                        <td>12312</td>
-                        <td>12311</td>
-                        <td>17688</td>
-                      </tr>
-                      <tr>
-                        <td>1</td>
-                        <td>101</td>
-                        <td>AE2014142131</td>
-                        <td>正常仓</td>
-                        <td>2122</td>
-                        <td>30000</td>
-                        <td>12312</td>
-                        <td>12311</td>
-                        <td>17688</td>
-                      </tr>
-                      <tr>
-                        <td>1</td>
-                        <td>101</td>
-                        <td>AE2014142131</td>
-                        <td>正常仓</td>
-                        <td>2122</td>
-                        <td>30000</td>
-                        <td>12312</td>
-                        <td>12311</td>
-                        <td>17688</td>
-                      </tr>
-                      <tr>
-                        <td>1</td>
-                        <td>101</td>
-                        <td>AE2014142131</td>
-                        <td>正常仓</td>
-                        <td>2122</td>
-                        <td>30000</td>
-                        <td>12312</td>
-                        <td>12311</td>
-                        <td>17688</td>
-                      </tr>
-                      <tr>
-                        <td>1</td>
-                        <td>101</td>
-                        <td>AE2014142131</td>
-                        <td>正常仓</td>
-                        <td>2122</td>
-                        <td>30000</td>
-                        <td>12312</td>
-                        <td>12311</td>
-                        <td>17688</td>
-                      </tr>
-                      <tr>
-                        <td>1</td>
-                        <td>101</td>
-                        <td>AE2014142131</td>
-                        <td>正常仓</td>
-                        <td>2122</td>
-                        <td>30000</td>
-                        <td>12312</td>
-                        <td>12311</td>
-                        <td>17688</td>
-                      </tr>
-                      <tr>
-                        <td>1</td>
-                        <td>101</td>
-                        <td>AE2014142131</td>
-                        <td>正常仓</td>
-                        <td>2122</td>
-                        <td>30000</td>
-                        <td>12312</td>
-                        <td>12311</td>
-                        <td>17688</td>
-                      </tr>
-                      <tr>
-                        <td>1</td>
-                        <td>101</td>
-                        <td>AE2014142131</td>
-                        <td>正常仓</td>
-                        <td>2122</td>
-                        <td>30000</td>
-                        <td>12312</td>
-                        <td>12311</td>
-                        <td>17688</td>
-                      </tr>
-                      <tr>
-                        <td>1</td>
-                        <td>101</td>
-                        <td>AE2014142131</td>
-                        <td>正常仓</td>
-                        <td>2122</td>
-                        <td>30000</td>
-                        <td>12312</td>
-                        <td>12311</td>
-                        <td>17688</td>
-                      </tr>
-                      
-                    </tbody>
-                  </table>
+                  </h3>
                 </div>
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>生产线</th>
+                      <th>子线</th>
+                      <th>烟仓代码</th>
+                      <th>卷烟条目</th>
+                      <th>库存量</th>
+                      <th>入库量</th>
+                      <th>分拣总量</th>
+                      <th>已分拣量</th>
+                      <th>理论余量</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>101</td>
+                      <td>AE2014142131</td>
+                      <td>正常仓</td>
+                      <td>2122</td>
+                      <td>30000</td>
+                      <td>12312</td>
+                      <td>12311</td>
+                      <td>17688</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>101</td>
+                      <td>AE2014142131</td>
+                      <td>正常仓</td>
+                      <td>2122</td>
+                      <td>30000</td>
+                      <td>12312</td>
+                      <td>12311</td>
+                      <td>17688</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>101</td>
+                      <td>AE2014142131</td>
+                      <td>正常仓</td>
+                      <td>2122</td>
+                      <td>30000</td>
+                      <td>12312</td>
+                      <td>12311</td>
+                      <td>17688</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>101</td>
+                      <td>AE2014142131</td>
+                      <td>正常仓</td>
+                      <td>2122</td>
+                      <td>30000</td>
+                      <td>12312</td>
+                      <td>12311</td>
+                      <td>17688</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>101</td>
+                      <td>AE2014142131</td>
+                      <td>正常仓</td>
+                      <td>2122</td>
+                      <td>30000</td>
+                      <td>12312</td>
+                      <td>12311</td>
+                      <td>17688</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>101</td>
+                      <td>AE2014142131</td>
+                      <td>正常仓</td>
+                      <td>2122</td>
+                      <td>30000</td>
+                      <td>12312</td>
+                      <td>12311</td>
+                      <td>17688</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>101</td>
+                      <td>AE2014142131</td>
+                      <td>正常仓</td>
+                      <td>2122</td>
+                      <td>30000</td>
+                      <td>12312</td>
+                      <td>12311</td>
+                      <td>17688</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>101</td>
+                      <td>AE2014142131</td>
+                      <td>正常仓</td>
+                      <td>2122</td>
+                      <td>30000</td>
+                      <td>12312</td>
+                      <td>12311</td>
+                      <td>17688</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>101</td>
+                      <td>AE2014142131</td>
+                      <td>正常仓</td>
+                      <td>2122</td>
+                      <td>30000</td>
+                      <td>12312</td>
+                      <td>12311</td>
+                      <td>17688</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>101</td>
+                      <td>AE2014142131</td>
+                      <td>正常仓</td>
+                      <td>2122</td>
+                      <td>30000</td>
+                      <td>12312</td>
+                      <td>12311</td>
+                      <td>17688</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>101</td>
+                      <td>AE2014142131</td>
+                      <td>正常仓</td>
+                      <td>2122</td>
+                      <td>30000</td>
+                      <td>12312</td>
+                      <td>12311</td>
+                      <td>17688</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>101</td>
+                      <td>AE2014142131</td>
+                      <td>正常仓</td>
+                      <td>2122</td>
+                      <td>30000</td>
+                      <td>12312</td>
+                      <td>12311</td>
+                      <td>17688</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>101</td>
+                      <td>AE2014142131</td>
+                      <td>正常仓</td>
+                      <td>2122</td>
+                      <td>30000</td>
+                      <td>12312</td>
+                      <td>12311</td>
+                      <td>17688</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>101</td>
+                      <td>AE2014142131</td>
+                      <td>正常仓</td>
+                      <td>2122</td>
+                      <td>30000</td>
+                      <td>12312</td>
+                      <td>12311</td>
+                      <td>17688</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
-              
-              
             </div>
           </div>
         </div>
       </div>
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

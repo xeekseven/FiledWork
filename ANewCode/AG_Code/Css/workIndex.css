@@ -1,0 +1,74 @@
+
+.div-row-left{
+	
+	height: 100%;
+	padding: 0px; 
+	border-right: 15px solid #EDEDED;
+}
+.div-person-Info{
+	height: auto; 
+	
+	padding-bottom: 20px;
+}
+.div-person-OpHistory{
+	height: 500px;
+	background-color: #66CD00;
+	border-top:15px solid #EDEDED; 
+}
+.div-row-right{
+	background-color: #8968CD;
+	height:  100%
+}
+.div-content{
+	border: 15px solid #EDEDED;
+	padding:0px 15px 0px 15px;
+}
+
+.div-head{
+	width: 180px;
+	height: 100%;
+	background: #f9fafc;
+	
+	top: 0;
+	left: 0;
+}
+.div-headImg{
+	position: relative;
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 36px auto 0;
+}
+.user-name{
+	margin-top: 6px;
+	text-align: center;
+	font-size: 18px;
+}
+.user-level{
+	position: absolute;
+	padding: 0px 4px;
+	background: #f90;
+	border-radius: 4px;
+	color: #fff;
+	line-height: 13px;
+	left: 14px;
+	bottom: 0;
+	left: 14px;
+	margin-bottom: -6px;
+
+}
+.user-yq{
+	text-align: center;
+	margin-top: 10px;
+}
+.user-hot{
+	background: #ff9900;
+	border-radius: 3px;
+	padding: 1px 2px;
+	display: inline-block;
+	line-height: 12px;
+	vertical-align: text-top;
+	text-align: center;
+	margin-left: 3px;
+	color: #fff;
+}
